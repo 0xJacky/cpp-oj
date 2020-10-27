@@ -183,10 +183,8 @@ public:
     // 初始化（利用构造函数完成初始化），参数是等级，等级与其他属性的关系：
     // 生命是等级20倍，攻击是等级2倍，金钱是等级的10倍，经验值是等级的10倍。
     Monster(int _rank);
-    
     void display();
     void attacked(Ultraman& u);
-    void restore();
     int getRank();
     int getExp();
     int getHp();
@@ -214,7 +212,7 @@ void Ultraman::attacked(Monster& m) {
 }
 
 void Ultraman::restore() {
-    // 生命低于50%但大于10点
+    // 生命低于50%但大于10点（大于10点已在main里判断）
     // 生命值上限(等级的10倍)。
     while (hp < 5 * rank && money >= 10) {
         hp++;
@@ -274,19 +272,6 @@ void Monster::display() {
 void Monster::attacked(Ultraman& u) {
     // 当奥特曼攻击时，怪兽受到的伤害等于奥特曼攻击力，即生命损失=奥特曼攻击力值
     hp -= u.getDamage();
-}
-
-void Monster::restore() {
-    // 生命低于50%但大于10点
-    if (hp > 10 && hp < 5 * rank) {
-        while (money >= 10 && hp<=10*rank) {
-            // 生命值上限(等级的10倍)。
-            if (hp > 10 && hp < 5 * rank) {
-                hp++;
-            }
-            money -= 10;
-        }
-    }
 }
 
 int Monster::getRank() {
