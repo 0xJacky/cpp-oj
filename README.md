@@ -1,4 +1,4 @@
-# cpp-ojhttps://github.com/0xJacky/cpp-oj/blob/master/README.md
+# cpp-oj
  
 SZTU  面向对象程序设计
 
