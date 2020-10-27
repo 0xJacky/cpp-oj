@@ -34,7 +34,7 @@
 
 #define N 11
 #include <iostream>
-#include <cstring>
+#include <string>
 #include <algorithm>
 #include <map>
 using namespace std;
