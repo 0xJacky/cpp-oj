@@ -7,10 +7,6 @@
 //
 
 /*
-问题 C: 计算宝宝帐户收益(多重继承)
-时间限制: 1 Sec  内存限制: 128 MB
-提交: 413  解决: 142
-[提交][状态][讨论版]
 题目描述
 定义一个类CPeople，具有身份号码(id,char[20])和姓名(name,char[10])两个数据成员，从CPeople类中再派生出CInternetUser类和CBankCustomer类,然后再从CInternetUser和CBankCustomer多重继承派生出CInternetBankCustomer类.。CInternetUser类有登录密码(password,char[20])属性和注册register(设置id, name和password)，登录login(判断输入的id与password是否与对象注册的相同)成员函数。CBankCustomer类有余额(balance,double)属性和开户openAccount(设置客户姓名和id)，存款deposit，取款withdraw以及缺省的构造函数。CInternetBankCustomer类包括有余额, 前一日余额, 当日收益，今日万元收益和上一日万元收益等5个数据成员，成员函数有缺省构造函数，存款和取款，设置万元收益，计算当日收益，登陆login(判断输入的id和密码是否与互联网用户的相同，同时从CBankCustomer继承的用户姓名和id要与从CInternetUser继承的相同)。CInternetBankCustomer类对象当日存款不计算收益，第2天开始才能计算收益，当日取款部分无收益。
 
