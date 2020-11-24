@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "85602D9D2509226800FBFE62"
-               BuildableName = "cpp-oj"
-               BlueprintName = "cpp-oj"
+               BlueprintIdentifier = "853C8BCE255A948D00EC3D7E"
+               BuildableName = "&#x7535;&#x89c6;&#x9065;&#x63a7;&#xff08;&#x9759;&#x6001;+&#x53cb;&#x5143;&#xff09;"
+               BlueprintName = "&#x7535;&#x89c6;&#x9065;&#x63a7;&#xff08;&#x9759;&#x6001;+&#x53cb;&#x5143;&#xff09;"
                ReferencedContainer = "container:cpp-oj.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "85602D9D2509226800FBFE62"
-            BuildableName = "cpp-oj"
-            BlueprintName = "cpp-oj"
+            BlueprintIdentifier = "853C8BCE255A948D00EC3D7E"
+            BuildableName = "&#x7535;&#x89c6;&#x9065;&#x63a7;&#xff08;&#x9759;&#x6001;+&#x53cb;&#x5143;&#xff09;"
+            BlueprintName = "&#x7535;&#x89c6;&#x9065;&#x63a7;&#xff08;&#x9759;&#x6001;+&#x53cb;&#x5143;&#xff09;"
             ReferencedContainer = "container:cpp-oj.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "85602D9D2509226800FBFE62"
-            BuildableName = "cpp-oj"
-            BlueprintName = "cpp-oj"
+            BlueprintIdentifier = "853C8BCE255A948D00EC3D7E"
+            BuildableName = "&#x7535;&#x89c6;&#x9065;&#x63a7;&#xff08;&#x9759;&#x6001;+&#x53cb;&#x5143;&#xff09;"
+            BlueprintName = "&#x7535;&#x89c6;&#x9065;&#x63a7;&#xff08;&#x9759;&#x6001;+&#x53cb;&#x5143;&#xff09;"
             ReferencedContainer = "container:cpp-oj.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

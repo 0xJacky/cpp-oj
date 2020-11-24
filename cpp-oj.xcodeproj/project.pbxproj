@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850829DB25511F0F00963A82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 850829DA25511F0F00963A82 /* main.cpp */; };
+		85082A0A2551254700963A82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85082A092551254700963A82 /* main.cpp */; };
+		85082A3A25512A8900963A82 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85082A3925512A8900963A82 /* main.cpp */; };
 		8508E06E25204B2B00AA560D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8508E06D25204B2B00AA560D /* main.cpp */; };
 		8508E0882520528900AA560D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8508E0872520528900AA560D /* main.cpp */; };
 		8508E0A325207E5C00AA560D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8508E0A225207E5C00AA560D /* main.cpp */; };
 		8508E0BF2520801A00AA560D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8508E0BE2520801A00AA560D /* main.cpp */; };
+		853C8BD2255A948D00EC3D7E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853C8BD1255A948D00EC3D7E /* main.cpp */; };
 		853CA1E62548026B009FAC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853CA1E52548026B009FAC9C /* main.cpp */; };
 		853CA210254809E8009FAC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853CA20F254809E8009FAC9C /* main.cpp */; };
 		853CA2C825481F11009FAC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853CA2C725481F11009FAC9C /* main.cpp */; };
 		853CA2F42548740A009FAC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853CA2F32548740A009FAC9C /* main.cpp */; };
 		853CA321254874A0009FAC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853CA320254874A0009FAC9C /* main.cpp */; };
+		85471D0D256CCA5E002EB595 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85471D0C256CCA5E002EB595 /* main.cpp */; };
+		85471DD5256CF2B2002EB595 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85471DD4256CF2B2002EB595 /* main.cpp */; };
+		854D7269255A8DDF001CD976 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 854D7268255A8DDF001CD976 /* main.cpp */; };
 		85602DA22509226800FBFE62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85602DA12509226800FBFE62 /* main.cpp */; };
 		85602DAF250922DE00FBFE62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85602DAE250922DE00FBFE62 /* main.cpp */; };
 		85602DBB2509D63600FBFE62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85602DBA2509D63600FBFE62 /* main.cpp */; };
@@ -25,6 +32,7 @@
 		856F83E2253DB70F0095447B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856F83E1253DB70F0095447B /* main.cpp */; };
 		856F8409253DBE6D0095447B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856F8408253DBE6D0095447B /* main.cpp */; };
 		856F8431253DC4BD0095447B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 856F8430253DC4BD0095447B /* main.cpp */; };
+		8588BE92256D513E00DD81DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8588BE91256D513E00DD81DE /* main.cpp */; };
 		858EBFA3253C81EA003C6CAD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858EBFA2253C81EA003C6CAD /* main.cpp */; };
 		858EBFC5253C8362003C6CAD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858EBFC4253C8362003C6CAD /* main.cpp */; };
 		858EBFE8253C83BC003C6CAD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 858EBFE7253C83BC003C6CAD /* main.cpp */; };
@@ -38,6 +46,13 @@
 		85AD5D73251CE5DA00CAA90D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85AD5D72251CE5DA00CAA90D /* main.cpp */; };
 		85AD5D8A251CE64500CAA90D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85AD5D89251CE64500CAA90D /* main.cpp */; };
 		85AD5DA2251CE65F00CAA90D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85AD5DA1251CE65F00CAA90D /* main.cpp */; };
+		85BD3F0F256398F2009ACE8C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BD3F0E256398F2009ACE8C /* main.cpp */; };
+		85BD3FFF2563CB25009ACE8C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BD3FFE2563CB25009ACE8C /* main.cpp */; };
+		85BD40372563CDE3009ACE8C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BD40362563CDE3009ACE8C /* main.cpp */; };
+		85BD407025640A9B009ACE8C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85BD406F25640A9B009ACE8C /* main.cpp */; };
+		85C1E48A255AFCEB0024C3AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C1E489255AFCEB0024C3AE /* main.cpp */; };
+		85C1E4BE255AFD230024C3AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C1E4BD255AFD230024C3AE /* main.cpp */; };
+		85C1E51D255AFDD90024C3AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85C1E51C255AFDD90024C3AE /* main.cpp */; };
 		85EAC8E7252376C4004F3051 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85EAC8E6252376C4004F3051 /* main.cpp */; };
 		85FEAC272521FB010036BCCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85FEAC262521FB010036BCCC /* main.cpp */; };
 		85FEAC452521FB980036BCCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85FEAC442521FB980036BCCC /* main.cpp */; };
@@ -45,6 +60,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		850829D625511F0F00963A82 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85082A052551254700963A82 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85082A3525512A8900963A82 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		8508E06925204B2B00AA560D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +115,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8508E0BA2520801A00AA560D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		853C8BCD255A948D00EC3D7E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -118,6 +169,33 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		853CA31C254874A0009FAC9C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85471D08256CCA5E002EB595 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85471DD0256CF2B2002EB595 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		854D7264255A8DDE001CD976 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -199,6 +277,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		856F842C253DC4BD0095447B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8588BE8D256D513E00DD81DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -324,6 +411,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		85BD3F0A256398F2009ACE8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85BD3FFA2563CB25009ACE8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85BD40322563CDE3009ACE8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85BD406B25640A9B009ACE8C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85C1E485255AFCEB0024C3AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85C1E4B9255AFD230024C3AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85C1E518255AFDD90024C3AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		85EAC8E2252376C4004F3051 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +513,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		850829D825511F0F00963A82 /* 旅馆顾客统计（静态成员） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "旅馆顾客统计（静态成员）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		850829DA25511F0F00963A82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85082A072551254700963A82 /* 复数运算（友元函数） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "复数运算（友元函数）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85082A092551254700963A82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85082A3725512A8900963A82 /* 银行账户（静态成员与友元函数） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "银行账户（静态成员与友元函数）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85082A3925512A8900963A82 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8508E06B25204B2B00AA560D /* 函数调用（函数指针） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "函数调用（函数指针）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8508E06D25204B2B00AA560D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8508E0852520528900AA560D /* Anigram单词 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Anigram单词"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -371,6 +527,8 @@
 		8508E0A225207E5C00AA560D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8508E0BC2520801A00AA560D /* 矩阵左转（指针与数组） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "矩阵左转（指针与数组）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8508E0BE2520801A00AA560D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		853C8BCF255A948D00EC3D7E /* 电视遥控（静态+友元） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "电视遥控（静态+友元）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		853C8BD1255A948D00EC3D7E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		853CA1E32548026B009FAC9C /* 电话号码升位(拷贝构造函数) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "电话号码升位(拷贝构造函数)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		853CA1E52548026B009FAC9C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		853CA20D254809E8009FAC9C /* 软件备份(拷贝构造函数) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "软件备份(拷贝构造函数)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -381,6 +539,12 @@
 		853CA2F32548740A009FAC9C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		853CA31E254874A0009FAC9C /* 奥特曼打怪兽之类的实现（系列2） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "奥特曼打怪兽之类的实现（系列2）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		853CA320254874A0009FAC9C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85471D0A256CCA5E002EB595 /* 时钟模拟(继承) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "时钟模拟(继承)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85471D0C256CCA5E002EB595 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85471DD2256CF2B2002EB595 /* 存折与信用卡（继承） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "存折与信用卡（继承）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85471DD4256CF2B2002EB595 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		854D7266255A8DDE001CD976 /* 机器人变身（类与对象）【期中模拟】 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "机器人变身（类与对象）【期中模拟】"; sourceTree = BUILT_PRODUCTS_DIR; };
+		854D7268255A8DDF001CD976 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		85602D9E2509226800FBFE62 /* cpp-oj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-oj"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85602DA12509226800FBFE62 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		85602DAC250922DE00FBFE62 /* 表达式求值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "表达式求值"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -399,6 +563,9 @@
 		856F8408253DBE6D0095447B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		856F842E253DC4BD0095447B /* 手机取款（类与对象数组） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "手机取款（类与对象数组）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		856F8430253DC4BD0095447B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8588BE8F256D513E00DD81DE /* 计算宝宝帐户收益(多重继承) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "计算宝宝帐户收益(多重继承)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8588BE91256D513E00DD81DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8588BEC8256D52B100DD81DE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		858EBFA0253C81EA003C6CAD /* Point（类与构造） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Point（类与构造）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		858EBFA2253C81EA003C6CAD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		858EBFC2253C8362003C6CAD /* Date(类与构造) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Date(类与构造)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -425,6 +592,20 @@
 		85AD5D89251CE64500CAA90D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		85AD5D9F251CE65F00CAA90D /* 数字判断（指针为函数参数） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "数字判断（指针为函数参数）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85AD5DA1251CE65F00CAA90D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85BD3F0C256398F2009ACE8C /* 新旧身份证(继承) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "新旧身份证(继承)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BD3F0E256398F2009ACE8C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85BD3FFC2563CB25009ACE8C /* 三维空间的点（继承） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "三维空间的点（继承）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BD3FFE2563CB25009ACE8C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85BD40342563CDE3009ACE8C /* 交通工具（多重继承） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "交通工具（多重继承）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BD40362563CDE3009ACE8C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85BD406D25640A9B009ACE8C /* 奥特曼打怪兽之类的继承（系列4） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "奥特曼打怪兽之类的继承（系列4）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85BD406F25640A9B009ACE8C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85C1E487255AFCEB0024C3AE /* 虚拟电话（构造与析构）【期中模拟】 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "虚拟电话（构造与析构）【期中模拟】"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C1E489255AFCEB0024C3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85C1E4BB255AFD230024C3AE /* 银行账户（拷贝构造）【期中模拟】 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "银行账户（拷贝构造）【期中模拟】"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C1E4BD255AFD230024C3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85C1E51A255AFDD90024C3AE /* 奥特曼打怪兽之类的应用（系列3） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "奥特曼打怪兽之类的应用（系列3）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C1E51C255AFDD90024C3AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		85EAC8E4252376C4004F3051 /* 点和圆(类与对象) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "点和圆(类与对象)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EAC8E6252376C4004F3051 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		85FEAC242521FB010036BCCC /* 学生类定义（类和对象） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "学生类定义（类和对象）"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -436,6 +617,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		850829D525511F0F00963A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85082A042551254700963A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85082A3425512A8900963A82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8508E06825204B2B00AA560D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -458,6 +660,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8508E0B92520801A00AA560D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C8BCC255A948D00EC3D7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -493,6 +702,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		853CA31B254874A0009FAC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85471D07256CCA5E002EB595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85471DCF256CF2B2002EB595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854D7263255A8DDE001CD976 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -556,6 +786,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		856F842B253DC4BD0095447B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8588BE8C256D513E00DD81DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -653,6 +890,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85BD3F09256398F2009ACE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BD3FF92563CB25009ACE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BD40312563CDE3009ACE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BD406A25640A9B009ACE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C1E484255AFCEB0024C3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C1E4B8255AFD230024C3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C1E517255AFDD90024C3AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85EAC8E1252376C4004F3051 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -684,6 +970,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		850829D925511F0F00963A82 /* 旅馆顾客统计（静态成员） */ = {
+			isa = PBXGroup;
+			children = (
+				850829DA25511F0F00963A82 /* main.cpp */,
+			);
+			path = "旅馆顾客统计（静态成员）";
+			sourceTree = "<group>";
+		};
+		85082A082551254700963A82 /* 复数运算（友元函数） */ = {
+			isa = PBXGroup;
+			children = (
+				85082A092551254700963A82 /* main.cpp */,
+			);
+			path = "复数运算（友元函数）";
+			sourceTree = "<group>";
+		};
+		85082A3825512A8900963A82 /* 银行账户（静态成员与友元函数） */ = {
+			isa = PBXGroup;
+			children = (
+				85082A3925512A8900963A82 /* main.cpp */,
+			);
+			path = "银行账户（静态成员与友元函数）";
+			sourceTree = "<group>";
+		};
 		8508E06C25204B2B00AA560D /* 函数调用（函数指针） */ = {
 			isa = PBXGroup;
 			children = (
@@ -714,6 +1024,14 @@
 				8508E0BE2520801A00AA560D /* main.cpp */,
 			);
 			path = "矩阵左转（指针与数组）";
+			sourceTree = "<group>";
+		};
+		853C8BD0255A948D00EC3D7E /* 电视遥控（静态+友元）【期中模拟】 */ = {
+			isa = PBXGroup;
+			children = (
+				853C8BD1255A948D00EC3D7E /* main.cpp */,
+			);
+			path = "电视遥控（静态+友元）【期中模拟】";
 			sourceTree = "<group>";
 		};
 		853CA1E42548026B009FAC9C /* 电话号码升位(拷贝构造函数) */ = {
@@ -756,9 +1074,34 @@
 			path = "奥特曼打怪兽之类的实现（系列2）";
 			sourceTree = "<group>";
 		};
+		85471D0B256CCA5E002EB595 /* 时钟模拟(继承) */ = {
+			isa = PBXGroup;
+			children = (
+				85471D0C256CCA5E002EB595 /* main.cpp */,
+			);
+			path = "时钟模拟(继承)";
+			sourceTree = "<group>";
+		};
+		85471DD3256CF2B2002EB595 /* 存折与信用卡（继承） */ = {
+			isa = PBXGroup;
+			children = (
+				85471DD4256CF2B2002EB595 /* main.cpp */,
+			);
+			path = "存折与信用卡（继承）";
+			sourceTree = "<group>";
+		};
+		854D7267255A8DDE001CD976 /* 机器人变身（类与对象）【期中模拟】 */ = {
+			isa = PBXGroup;
+			children = (
+				854D7268255A8DDF001CD976 /* main.cpp */,
+			);
+			path = "机器人变身（类与对象）【期中模拟】";
+			sourceTree = "<group>";
+		};
 		85602D952509226800FBFE62 = {
 			isa = PBXGroup;
 			children = (
+				8588BEC8256D52B100DD81DE /* README.md */,
 				85602DA02509226800FBFE62 /* cpp-oj */,
 				85602DAD250922DE00FBFE62 /* 表达式求值 */,
 				85602DB92509D63600FBFE62 /* 超重青蛙 */,
@@ -794,6 +1137,21 @@
 				853CA2C625481F11009FAC9C /* 手机服务（构造+拷贝构造+堆） */,
 				853CA2F22548740A009FAC9C /* 奥特曼打怪兽之类的定义（系列1） */,
 				853CA31F254874A0009FAC9C /* 奥特曼打怪兽之类的实现（系列2） */,
+				850829D925511F0F00963A82 /* 旅馆顾客统计（静态成员） */,
+				85082A082551254700963A82 /* 复数运算（友元函数） */,
+				85082A3825512A8900963A82 /* 银行账户（静态成员与友元函数） */,
+				854D7267255A8DDE001CD976 /* 机器人变身（类与对象）【期中模拟】 */,
+				853C8BD0255A948D00EC3D7E /* 电视遥控（静态+友元）【期中模拟】 */,
+				85C1E488255AFCEB0024C3AE /* 虚拟电话（构造与析构）【期中模拟】 */,
+				85C1E4BC255AFD230024C3AE /* 银行账户（拷贝构造）【期中模拟】 */,
+				85C1E51B255AFDD90024C3AE /* 奥特曼打怪兽之类的应用（系列3） */,
+				85BD3F0D256398F2009ACE8C /* 新旧身份证(继承) */,
+				85BD3FFD2563CB25009ACE8C /* 三维空间的点（继承） */,
+				85BD40352563CDE3009ACE8C /* 交通工具（多重继承） */,
+				85BD406E25640A9B009ACE8C /* 奥特曼打怪兽之类的继承（系列4） */,
+				85471D0B256CCA5E002EB595 /* 时钟模拟(继承) */,
+				85471DD3256CF2B2002EB595 /* 存折与信用卡（继承） */,
+				8588BE90256D513E00DD81DE /* 计算宝宝帐户收益(多重继承) */,
 				85602D9F2509226800FBFE62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -836,6 +1194,21 @@
 				853CA2C525481F11009FAC9C /* 手机服务（构造+拷贝构造+堆） */,
 				853CA2F12548740A009FAC9C /* 奥特曼打怪兽之类的定义（系列1） */,
 				853CA31E254874A0009FAC9C /* 奥特曼打怪兽之类的实现（系列2） */,
+				850829D825511F0F00963A82 /* 旅馆顾客统计（静态成员） */,
+				85082A072551254700963A82 /* 复数运算（友元函数） */,
+				85082A3725512A8900963A82 /* 银行账户（静态成员与友元函数） */,
+				854D7266255A8DDE001CD976 /* 机器人变身（类与对象）【期中模拟】 */,
+				853C8BCF255A948D00EC3D7E /* 电视遥控（静态+友元） */,
+				85C1E487255AFCEB0024C3AE /* 虚拟电话（构造与析构）【期中模拟】 */,
+				85C1E4BB255AFD230024C3AE /* 银行账户（拷贝构造）【期中模拟】 */,
+				85C1E51A255AFDD90024C3AE /* 奥特曼打怪兽之类的应用（系列3） */,
+				85BD3F0C256398F2009ACE8C /* 新旧身份证(继承) */,
+				85BD3FFC2563CB25009ACE8C /* 三维空间的点（继承） */,
+				85BD40342563CDE3009ACE8C /* 交通工具（多重继承） */,
+				85BD406D25640A9B009ACE8C /* 奥特曼打怪兽之类的继承（系列4） */,
+				85471D0A256CCA5E002EB595 /* 时钟模拟(继承) */,
+				85471DD2256CF2B2002EB595 /* 存折与信用卡（继承） */,
+				8588BE8F256D513E00DD81DE /* 计算宝宝帐户收益(多重继承) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -910,6 +1283,14 @@
 				856F8430253DC4BD0095447B /* main.cpp */,
 			);
 			path = "手机取款（类与对象数组）";
+			sourceTree = "<group>";
+		};
+		8588BE90256D513E00DD81DE /* 计算宝宝帐户收益(多重继承) */ = {
+			isa = PBXGroup;
+			children = (
+				8588BE91256D513E00DD81DE /* main.cpp */,
+			);
+			path = "计算宝宝帐户收益(多重继承)";
 			sourceTree = "<group>";
 		};
 		858EBFA1253C81EA003C6CAD /* Point（类与构造） */ = {
@@ -1016,6 +1397,62 @@
 			path = "数字判断（指针为函数参数）";
 			sourceTree = "<group>";
 		};
+		85BD3F0D256398F2009ACE8C /* 新旧身份证(继承) */ = {
+			isa = PBXGroup;
+			children = (
+				85BD3F0E256398F2009ACE8C /* main.cpp */,
+			);
+			path = "新旧身份证(继承)";
+			sourceTree = "<group>";
+		};
+		85BD3FFD2563CB25009ACE8C /* 三维空间的点（继承） */ = {
+			isa = PBXGroup;
+			children = (
+				85BD3FFE2563CB25009ACE8C /* main.cpp */,
+			);
+			path = "三维空间的点（继承）";
+			sourceTree = "<group>";
+		};
+		85BD40352563CDE3009ACE8C /* 交通工具（多重继承） */ = {
+			isa = PBXGroup;
+			children = (
+				85BD40362563CDE3009ACE8C /* main.cpp */,
+			);
+			path = "交通工具（多重继承）";
+			sourceTree = "<group>";
+		};
+		85BD406E25640A9B009ACE8C /* 奥特曼打怪兽之类的继承（系列4） */ = {
+			isa = PBXGroup;
+			children = (
+				85BD406F25640A9B009ACE8C /* main.cpp */,
+			);
+			path = "奥特曼打怪兽之类的继承（系列4）";
+			sourceTree = "<group>";
+		};
+		85C1E488255AFCEB0024C3AE /* 虚拟电话（构造与析构）【期中模拟】 */ = {
+			isa = PBXGroup;
+			children = (
+				85C1E489255AFCEB0024C3AE /* main.cpp */,
+			);
+			path = "虚拟电话（构造与析构）【期中模拟】";
+			sourceTree = "<group>";
+		};
+		85C1E4BC255AFD230024C3AE /* 银行账户（拷贝构造）【期中模拟】 */ = {
+			isa = PBXGroup;
+			children = (
+				85C1E4BD255AFD230024C3AE /* main.cpp */,
+			);
+			path = "银行账户（拷贝构造）【期中模拟】";
+			sourceTree = "<group>";
+		};
+		85C1E51B255AFDD90024C3AE /* 奥特曼打怪兽之类的应用（系列3） */ = {
+			isa = PBXGroup;
+			children = (
+				85C1E51C255AFDD90024C3AE /* main.cpp */,
+			);
+			path = "奥特曼打怪兽之类的应用（系列3）";
+			sourceTree = "<group>";
+		};
 		85EAC8E5252376C4004F3051 /* 点和圆(类与对象) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1051,6 +1488,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		850829D725511F0F00963A82 /* 旅馆顾客统计（静态成员） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 850829DE25511F0F00963A82 /* Build configuration list for PBXNativeTarget "旅馆顾客统计（静态成员）" */;
+			buildPhases = (
+				850829D425511F0F00963A82 /* Sources */,
+				850829D525511F0F00963A82 /* Frameworks */,
+				850829D625511F0F00963A82 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旅馆顾客统计（静态成员）";
+			productName = "旅馆顾客统计（静态成员）";
+			productReference = 850829D825511F0F00963A82 /* 旅馆顾客统计（静态成员） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85082A062551254700963A82 /* 复数运算（友元函数） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85082A0B2551254700963A82 /* Build configuration list for PBXNativeTarget "复数运算（友元函数）" */;
+			buildPhases = (
+				85082A032551254700963A82 /* Sources */,
+				85082A042551254700963A82 /* Frameworks */,
+				85082A052551254700963A82 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "复数运算（友元函数）";
+			productName = "复数运算（友元函数）";
+			productReference = 85082A072551254700963A82 /* 复数运算（友元函数） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85082A3625512A8900963A82 /* 银行账户（静态成员与友元函数） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85082A3B25512A8900963A82 /* Build configuration list for PBXNativeTarget "银行账户（静态成员与友元函数）" */;
+			buildPhases = (
+				85082A3325512A8900963A82 /* Sources */,
+				85082A3425512A8900963A82 /* Frameworks */,
+				85082A3525512A8900963A82 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "银行账户（静态成员与友元函数）";
+			productName = "银行账户（静态成员与友元函数）";
+			productReference = 85082A3725512A8900963A82 /* 银行账户（静态成员与友元函数） */;
+			productType = "com.apple.product-type.tool";
+		};
 		8508E06A25204B2B00AA560D /* 函数调用（函数指针） */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8508E06F25204B2B00AA560D /* Build configuration list for PBXNativeTarget "函数调用（函数指针）" */;
@@ -1117,6 +1605,23 @@
 			name = "矩阵左转（指针与数组）";
 			productName = "矩阵左转（指针与数组）";
 			productReference = 8508E0BC2520801A00AA560D /* 矩阵左转（指针与数组） */;
+			productType = "com.apple.product-type.tool";
+		};
+		853C8BCE255A948D00EC3D7E /* 电视遥控（静态+友元） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853C8BD5255A948D00EC3D7E /* Build configuration list for PBXNativeTarget "电视遥控（静态+友元）" */;
+			buildPhases = (
+				853C8BCB255A948D00EC3D7E /* Sources */,
+				853C8BCC255A948D00EC3D7E /* Frameworks */,
+				853C8BCD255A948D00EC3D7E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "电视遥控（静态+友元）";
+			productName = "电视遥控（静态+友元）";
+			productReference = 853C8BCF255A948D00EC3D7E /* 电视遥控（静态+友元） */;
 			productType = "com.apple.product-type.tool";
 		};
 		853CA1E22548026B009FAC9C /* 电话号码升位(拷贝构造函数) */ = {
@@ -1202,6 +1707,57 @@
 			name = "奥特曼打怪兽之类的实现（系列2）";
 			productName = "奥特曼打怪兽之类的实现（系列2）";
 			productReference = 853CA31E254874A0009FAC9C /* 奥特曼打怪兽之类的实现（系列2） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85471D09256CCA5E002EB595 /* 时钟模拟(继承) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85471D10256CCA5E002EB595 /* Build configuration list for PBXNativeTarget "时钟模拟(继承)" */;
+			buildPhases = (
+				85471D06256CCA5E002EB595 /* Sources */,
+				85471D07256CCA5E002EB595 /* Frameworks */,
+				85471D08256CCA5E002EB595 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "时钟模拟(继承)";
+			productName = "时钟模拟(继承)";
+			productReference = 85471D0A256CCA5E002EB595 /* 时钟模拟(继承) */;
+			productType = "com.apple.product-type.tool";
+		};
+		85471DD1256CF2B2002EB595 /* 存折与信用卡（继承） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85471DD6256CF2B2002EB595 /* Build configuration list for PBXNativeTarget "存折与信用卡（继承）" */;
+			buildPhases = (
+				85471DCE256CF2B2002EB595 /* Sources */,
+				85471DCF256CF2B2002EB595 /* Frameworks */,
+				85471DD0256CF2B2002EB595 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "存折与信用卡（继承）";
+			productName = "存折与信用卡（继承）";
+			productReference = 85471DD2256CF2B2002EB595 /* 存折与信用卡（继承） */;
+			productType = "com.apple.product-type.tool";
+		};
+		854D7265255A8DDE001CD976 /* 机器人变身（类与对象）【期中模拟】 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 854D726C255A8DDF001CD976 /* Build configuration list for PBXNativeTarget "机器人变身（类与对象）【期中模拟】" */;
+			buildPhases = (
+				854D7262255A8DDE001CD976 /* Sources */,
+				854D7263255A8DDE001CD976 /* Frameworks */,
+				854D7264255A8DDE001CD976 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "机器人变身（类与对象）【期中模拟】";
+			productName = "机器人变身（类与对象）【期中模拟】";
+			productReference = 854D7266255A8DDE001CD976 /* 机器人变身（类与对象）【期中模拟】 */;
 			productType = "com.apple.product-type.tool";
 		};
 		85602D9D2509226800FBFE62 /* cpp-oj */ = {
@@ -1355,6 +1911,23 @@
 			name = "手机取款（类与对象数组）";
 			productName = "手机取款（类与对象数组）";
 			productReference = 856F842E253DC4BD0095447B /* 手机取款（类与对象数组） */;
+			productType = "com.apple.product-type.tool";
+		};
+		8588BE8E256D513E00DD81DE /* 计算宝宝帐户收益(多重继承) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8588BE95256D513E00DD81DE /* Build configuration list for PBXNativeTarget "计算宝宝帐户收益(多重继承)" */;
+			buildPhases = (
+				8588BE8B256D513E00DD81DE /* Sources */,
+				8588BE8C256D513E00DD81DE /* Frameworks */,
+				8588BE8D256D513E00DD81DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计算宝宝帐户收益(多重继承)";
+			productName = "计算宝宝帐户收益(多重继承)";
+			productReference = 8588BE8F256D513E00DD81DE /* 计算宝宝帐户收益(多重继承) */;
 			productType = "com.apple.product-type.tool";
 		};
 		858EBF9F253C81EA003C6CAD /* Point（类与构造） */ = {
@@ -1578,6 +2151,125 @@
 			productReference = 85AD5D9F251CE65F00CAA90D /* 数字判断（指针为函数参数） */;
 			productType = "com.apple.product-type.tool";
 		};
+		85BD3F0B256398F2009ACE8C /* 新旧身份证(继承) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85BD3F12256398F2009ACE8C /* Build configuration list for PBXNativeTarget "新旧身份证(继承)" */;
+			buildPhases = (
+				85BD3F08256398F2009ACE8C /* Sources */,
+				85BD3F09256398F2009ACE8C /* Frameworks */,
+				85BD3F0A256398F2009ACE8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "新旧身份证(继承)";
+			productName = "新旧身份证(继承)";
+			productReference = 85BD3F0C256398F2009ACE8C /* 新旧身份证(继承) */;
+			productType = "com.apple.product-type.tool";
+		};
+		85BD3FFB2563CB25009ACE8C /* 三维空间的点（继承） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85BD40002563CB25009ACE8C /* Build configuration list for PBXNativeTarget "三维空间的点（继承）" */;
+			buildPhases = (
+				85BD3FF82563CB25009ACE8C /* Sources */,
+				85BD3FF92563CB25009ACE8C /* Frameworks */,
+				85BD3FFA2563CB25009ACE8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "三维空间的点（继承）";
+			productName = "三维空间的点（继承）";
+			productReference = 85BD3FFC2563CB25009ACE8C /* 三维空间的点（继承） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85BD40332563CDE3009ACE8C /* 交通工具（多重继承） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85BD40382563CDE3009ACE8C /* Build configuration list for PBXNativeTarget "交通工具（多重继承）" */;
+			buildPhases = (
+				85BD40302563CDE3009ACE8C /* Sources */,
+				85BD40312563CDE3009ACE8C /* Frameworks */,
+				85BD40322563CDE3009ACE8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "交通工具（多重继承）";
+			productName = "交通工具（多重继承）";
+			productReference = 85BD40342563CDE3009ACE8C /* 交通工具（多重继承） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85BD406C25640A9B009ACE8C /* 奥特曼打怪兽之类的继承（系列4） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85BD407325640A9B009ACE8C /* Build configuration list for PBXNativeTarget "奥特曼打怪兽之类的继承（系列4）" */;
+			buildPhases = (
+				85BD406925640A9B009ACE8C /* Sources */,
+				85BD406A25640A9B009ACE8C /* Frameworks */,
+				85BD406B25640A9B009ACE8C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "奥特曼打怪兽之类的继承（系列4）";
+			productName = "奥特曼打怪兽之类的继承（系列4）";
+			productReference = 85BD406D25640A9B009ACE8C /* 奥特曼打怪兽之类的继承（系列4） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85C1E486255AFCEB0024C3AE /* 虚拟电话（构造与析构）【期中模拟】 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C1E48D255AFCEB0024C3AE /* Build configuration list for PBXNativeTarget "虚拟电话（构造与析构）【期中模拟】" */;
+			buildPhases = (
+				85C1E483255AFCEB0024C3AE /* Sources */,
+				85C1E484255AFCEB0024C3AE /* Frameworks */,
+				85C1E485255AFCEB0024C3AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "虚拟电话（构造与析构）【期中模拟】";
+			productName = "虚拟电话（构造与析构）【期中模拟】";
+			productReference = 85C1E487255AFCEB0024C3AE /* 虚拟电话（构造与析构）【期中模拟】 */;
+			productType = "com.apple.product-type.tool";
+		};
+		85C1E4BA255AFD230024C3AE /* 银行账户（拷贝构造）【期中模拟】 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C1E4BF255AFD230024C3AE /* Build configuration list for PBXNativeTarget "银行账户（拷贝构造）【期中模拟】" */;
+			buildPhases = (
+				85C1E4B7255AFD230024C3AE /* Sources */,
+				85C1E4B8255AFD230024C3AE /* Frameworks */,
+				85C1E4B9255AFD230024C3AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "银行账户（拷贝构造）【期中模拟】";
+			productName = "银行账户（拷贝构造）【期中模拟】";
+			productReference = 85C1E4BB255AFD230024C3AE /* 银行账户（拷贝构造）【期中模拟】 */;
+			productType = "com.apple.product-type.tool";
+		};
+		85C1E519255AFDD90024C3AE /* 奥特曼打怪兽之类的应用（系列3） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85C1E51E255AFDD90024C3AE /* Build configuration list for PBXNativeTarget "奥特曼打怪兽之类的应用（系列3）" */;
+			buildPhases = (
+				85C1E516255AFDD90024C3AE /* Sources */,
+				85C1E517255AFDD90024C3AE /* Frameworks */,
+				85C1E518255AFDD90024C3AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "奥特曼打怪兽之类的应用（系列3）";
+			productName = "奥特曼打怪兽之类的应用（系列3）";
+			productReference = 85C1E51A255AFDD90024C3AE /* 奥特曼打怪兽之类的应用（系列3） */;
+			productType = "com.apple.product-type.tool";
+		};
 		85EAC8E3252376C4004F3051 /* 点和圆(类与对象) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85EAC8EA252376C4004F3051 /* Build configuration list for PBXNativeTarget "点和圆(类与对象)" */;
@@ -1652,9 +2344,18 @@
 		85602D962509226800FBFE62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = Jacky;
 				TargetAttributes = {
+					850829D725511F0F00963A82 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					85082A062551254700963A82 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					85082A3625512A8900963A82 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					8508E06A25204B2B00AA560D = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -1666,6 +2367,9 @@
 					};
 					8508E0BB2520801A00AA560D = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					853C8BCE255A948D00EC3D7E = {
+						CreatedOnToolsVersion = 12.1;
 					};
 					853CA1E22548026B009FAC9C = {
 						CreatedOnToolsVersion = 12.1;
@@ -1680,6 +2384,15 @@
 						CreatedOnToolsVersion = 12.1;
 					};
 					853CA31D254874A0009FAC9C = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					85471D09256CCA5E002EB595 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					85471DD1256CF2B2002EB595 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					854D7265255A8DDE001CD976 = {
 						CreatedOnToolsVersion = 12.1;
 					};
 					85602D9D2509226800FBFE62 = {
@@ -1708,6 +2421,9 @@
 					};
 					856F842D253DC4BD0095447B = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					8588BE8E256D513E00DD81DE = {
+						CreatedOnToolsVersion = 12.2;
 					};
 					858EBF9F253C81EA003C6CAD = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -1747,6 +2463,27 @@
 					};
 					85AD5D9E251CE65F00CAA90D = {
 						CreatedOnToolsVersion = 12.0;
+					};
+					85BD3F0B256398F2009ACE8C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					85BD3FFB2563CB25009ACE8C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					85BD40332563CDE3009ACE8C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					85BD406C25640A9B009ACE8C = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					85C1E486255AFCEB0024C3AE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					85C1E4BA255AFD230024C3AE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					85C1E519255AFDD90024C3AE = {
+						CreatedOnToolsVersion = 12.1;
 					};
 					85EAC8E3252376C4004F3051 = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -1810,11 +2547,50 @@
 				853CA2C425481F11009FAC9C /* 手机服务（构造+拷贝构造+堆） */,
 				853CA2F02548740A009FAC9C /* 奥特曼打怪兽之类的定义（系列1） */,
 				853CA31D254874A0009FAC9C /* 奥特曼打怪兽之类的实现（系列2） */,
+				850829D725511F0F00963A82 /* 旅馆顾客统计（静态成员） */,
+				85082A062551254700963A82 /* 复数运算（友元函数） */,
+				85082A3625512A8900963A82 /* 银行账户（静态成员与友元函数） */,
+				854D7265255A8DDE001CD976 /* 机器人变身（类与对象）【期中模拟】 */,
+				853C8BCE255A948D00EC3D7E /* 电视遥控（静态+友元） */,
+				85C1E486255AFCEB0024C3AE /* 虚拟电话（构造与析构）【期中模拟】 */,
+				85C1E4BA255AFD230024C3AE /* 银行账户（拷贝构造）【期中模拟】 */,
+				85C1E519255AFDD90024C3AE /* 奥特曼打怪兽之类的应用（系列3） */,
+				85BD3F0B256398F2009ACE8C /* 新旧身份证(继承) */,
+				85BD3FFB2563CB25009ACE8C /* 三维空间的点（继承） */,
+				85BD40332563CDE3009ACE8C /* 交通工具（多重继承） */,
+				85BD406C25640A9B009ACE8C /* 奥特曼打怪兽之类的继承（系列4） */,
+				85471D09256CCA5E002EB595 /* 时钟模拟(继承) */,
+				85471DD1256CF2B2002EB595 /* 存折与信用卡（继承） */,
+				8588BE8E256D513E00DD81DE /* 计算宝宝帐户收益(多重继承) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		850829D425511F0F00963A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850829DB25511F0F00963A82 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85082A032551254700963A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85082A0A2551254700963A82 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85082A3325512A8900963A82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85082A3A25512A8900963A82 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8508E06725204B2B00AA560D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1844,6 +2620,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8508E0BF2520801A00AA560D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853C8BCB255A948D00EC3D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C8BD2255A948D00EC3D7E /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1884,6 +2668,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				853CA321254874A0009FAC9C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85471D06256CCA5E002EB595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85471D0D256CCA5E002EB595 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85471DCE256CF2B2002EB595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85471DD5256CF2B2002EB595 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854D7262255A8DDE001CD976 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854D7269255A8DDF001CD976 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1956,6 +2764,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				856F8431253DC4BD0095447B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8588BE8B256D513E00DD81DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8588BE92256D513E00DD81DE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2063,6 +2879,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85BD3F08256398F2009ACE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BD3F0F256398F2009ACE8C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BD3FF82563CB25009ACE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BD3FFF2563CB25009ACE8C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BD40302563CDE3009ACE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BD40372563CDE3009ACE8C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85BD406925640A9B009ACE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BD407025640A9B009ACE8C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C1E483255AFCEB0024C3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C1E48A255AFCEB0024C3AE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C1E4B7255AFD230024C3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C1E4BE255AFD230024C3AE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85C1E516255AFDD90024C3AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C1E51D255AFDD90024C3AE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85EAC8E0252376C4004F3051 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2098,6 +2970,60 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		850829DC25511F0F00963A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		850829DD25511F0F00963A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85082A0C2551254700963A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85082A0D2551254700963A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85082A3C25512A8900963A82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85082A3D25512A8900963A82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		8508E07025204B2B00AA560D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2170,9 +3096,28 @@
 			};
 			name = Release;
 		};
+		853C8BD3255A948D00EC3D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853C8BD4255A948D00EC3D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		853CA1E82548026B009FAC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2181,6 +3126,7 @@
 		853CA1E92548026B009FAC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2189,6 +3135,7 @@
 		853CA212254809E8009FAC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2197,6 +3144,7 @@
 		853CA213254809E8009FAC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2205,6 +3153,7 @@
 		853CA2CA25481F11009FAC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2213,6 +3162,7 @@
 		853CA2CB25481F11009FAC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2221,6 +3171,7 @@
 		853CA2F62548740A009FAC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2229,6 +3180,7 @@
 		853CA2F72548740A009FAC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2237,6 +3189,7 @@
 		853CA323254874A0009FAC9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2245,6 +3198,61 @@
 		853CA324254874A0009FAC9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85471D0E256CCA5E002EB595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85471D0F256CCA5E002EB595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85471DD7256CF2B2002EB595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85471DD8256CF2B2002EB595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		854D726A255A8DDF001CD976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		854D726B255A8DDF001CD976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -2523,6 +3531,24 @@
 			};
 			name = Release;
 		};
+		8588BE93256D513E00DD81DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8588BE94256D513E00DD81DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		858EBFA4253C81EA003C6CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2775,6 +3801,134 @@
 			};
 			name = Release;
 		};
+		85BD3F10256398F2009ACE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85BD3F11256398F2009ACE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85BD40012563CB25009ACE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85BD40022563CB25009ACE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85BD40392563CDE3009ACE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85BD403A2563CDE3009ACE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85BD407125640A9B009ACE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85BD407225640A9B009ACE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85C1E48B255AFCEB0024C3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85C1E48C255AFCEB0024C3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85C1E4C0255AFD230024C3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85C1E4C1255AFD230024C3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85C1E51F255AFDD90024C3AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85C1E520255AFDD90024C3AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		85EAC8E8252376C4004F3051 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2850,6 +4004,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		850829DE25511F0F00963A82 /* Build configuration list for PBXNativeTarget "旅馆顾客统计（静态成员）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				850829DC25511F0F00963A82 /* Debug */,
+				850829DD25511F0F00963A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85082A0B2551254700963A82 /* Build configuration list for PBXNativeTarget "复数运算（友元函数）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85082A0C2551254700963A82 /* Debug */,
+				85082A0D2551254700963A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85082A3B25512A8900963A82 /* Build configuration list for PBXNativeTarget "银行账户（静态成员与友元函数）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85082A3C25512A8900963A82 /* Debug */,
+				85082A3D25512A8900963A82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8508E06F25204B2B00AA560D /* Build configuration list for PBXNativeTarget "函数调用（函数指针）" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2882,6 +4063,15 @@
 			buildConfigurations = (
 				8508E0C12520801A00AA560D /* Debug */,
 				8508E0C22520801A00AA560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853C8BD5255A948D00EC3D7E /* Build configuration list for PBXNativeTarget "电视遥控（静态+友元）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853C8BD3255A948D00EC3D7E /* Debug */,
+				853C8BD4255A948D00EC3D7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2927,6 +4117,33 @@
 			buildConfigurations = (
 				853CA323254874A0009FAC9C /* Debug */,
 				853CA324254874A0009FAC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85471D10256CCA5E002EB595 /* Build configuration list for PBXNativeTarget "时钟模拟(继承)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85471D0E256CCA5E002EB595 /* Debug */,
+				85471D0F256CCA5E002EB595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85471DD6256CF2B2002EB595 /* Build configuration list for PBXNativeTarget "存折与信用卡（继承）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85471DD7256CF2B2002EB595 /* Debug */,
+				85471DD8256CF2B2002EB595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		854D726C255A8DDF001CD976 /* Build configuration list for PBXNativeTarget "机器人变身（类与对象）【期中模拟】" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854D726A255A8DDF001CD976 /* Debug */,
+				854D726B255A8DDF001CD976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3017,6 +4234,15 @@
 			buildConfigurations = (
 				856F8433253DC4BD0095447B /* Debug */,
 				856F8434253DC4BD0095447B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8588BE95256D513E00DD81DE /* Build configuration list for PBXNativeTarget "计算宝宝帐户收益(多重继承)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8588BE93256D513E00DD81DE /* Debug */,
+				8588BE94256D513E00DD81DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3134,6 +4360,69 @@
 			buildConfigurations = (
 				85AD5DA4251CE65F00CAA90D /* Debug */,
 				85AD5DA5251CE65F00CAA90D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85BD3F12256398F2009ACE8C /* Build configuration list for PBXNativeTarget "新旧身份证(继承)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BD3F10256398F2009ACE8C /* Debug */,
+				85BD3F11256398F2009ACE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85BD40002563CB25009ACE8C /* Build configuration list for PBXNativeTarget "三维空间的点（继承）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BD40012563CB25009ACE8C /* Debug */,
+				85BD40022563CB25009ACE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85BD40382563CDE3009ACE8C /* Build configuration list for PBXNativeTarget "交通工具（多重继承）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BD40392563CDE3009ACE8C /* Debug */,
+				85BD403A2563CDE3009ACE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85BD407325640A9B009ACE8C /* Build configuration list for PBXNativeTarget "奥特曼打怪兽之类的继承（系列4）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85BD407125640A9B009ACE8C /* Debug */,
+				85BD407225640A9B009ACE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C1E48D255AFCEB0024C3AE /* Build configuration list for PBXNativeTarget "虚拟电话（构造与析构）【期中模拟】" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C1E48B255AFCEB0024C3AE /* Debug */,
+				85C1E48C255AFCEB0024C3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C1E4BF255AFD230024C3AE /* Build configuration list for PBXNativeTarget "银行账户（拷贝构造）【期中模拟】" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C1E4C0255AFD230024C3AE /* Debug */,
+				85C1E4C1255AFD230024C3AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85C1E51E255AFDD90024C3AE /* Build configuration list for PBXNativeTarget "奥特曼打怪兽之类的应用（系列3）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C1E51F255AFDD90024C3AE /* Debug */,
+				85C1E520255AFDD90024C3AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
