@@ -24,15 +24,16 @@
  如果不存在该种动物，输出There is no 动物名称 in our Zoo.  ，具体输出参考## 样例输出  
   
  ## 样例输入  
-4  
-Tiger Jumpjump 10  
-Pig Piglet 4  
-Rabbit labi 3  
-Duck tanglaoya 8  
+ 4  
+ Tiger Jumpjump 10  
+ Pig Piglet 4  
+ Rabbit labi 3  
+ Duck tanglaoya 8  
  ## 样例输出  
  Hello,I am Jumpjump,AOOO.  
  Hello,I am Piglet,HENGHENG.  
  There is no Rabbit in our Zoo.  
  Hello,I am tanglaoya,GAGA.  
+ ## 提示  
    
   
