@@ -51,28 +51,33 @@ int length(char* s) {
 }
 
 int strcmp(char* S, char* T) {
-    if (length(S) > length(T)) { return 1; }
-    else if (length(S) < length(T)){ return -1; }
-    else {
+    if (length(S) > length(T)) {
+        return 1;
+    } else if (length(S) < length(T)) {
+        return -1;
+    } else {
         int i = 0, bigger = 0, smaller = 0;
         while (*(S + i) != '\0') {
-            if (*(S + i) > * (T + i)) bigger++;
-            else smaller++;
+            if (*(S + i) > *(T + i))
+                bigger++;
+            else
+                smaller++;
             i++;
         }
-        if (bigger == smaller) return 0;
-        else if (bigger > smaller) return 1;
-        else return -1;
+        if (bigger == smaller)
+            return 0;
+        else if (bigger > smaller)
+            return 1;
+        else
+            return -1;
     }
-    
 }
 
-int main()
-{
+int main() {
     int t;
     char S[N], T[N];
     cin >> t;
-    
+
     while (t--) {
         cin >> S;
         cin >> T;
@@ -80,4 +85,3 @@ int main()
     }
     return 0;
 }
-

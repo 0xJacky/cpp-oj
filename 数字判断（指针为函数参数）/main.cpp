@@ -34,11 +34,12 @@
  提示
  */
 #define N 20
-#include <iostream>
 #include <math.h>
+
+#include <iostream>
 using namespace std;
 
-int str_length(char *p) {
+int str_length(char* p) {
     int i = 0;
     while (*(p + i) != '\0') {
         i++;
@@ -48,7 +49,7 @@ int str_length(char *p) {
 
 int isNumber(char* p) {
     int ans = 0, length = str_length(p);
-    
+
     for (int i = length - 1; i >= 0; i--) {
         if (!(*(p + i) >= '0' && *(p + i) <= '9')) {
             return -1;
@@ -56,11 +57,9 @@ int isNumber(char* p) {
         ans += (*(p + i) - '0') * pow(10, fabs(i - length + 1));
     }
     return ans;
-    
 }
 
-int main()
-{
+int main() {
     int t;
     char input[N];
     cin >> t;
@@ -68,6 +67,6 @@ int main()
         cin >> input;
         cout << isNumber(input) << endl;
     }
-    
+
     return 0;
 }

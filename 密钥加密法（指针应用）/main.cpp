@@ -45,39 +45,36 @@ int length(char* s) {
     return i;
 }
 // - '0'
-int main()
-{
+int main() {
     int t, pw_length;
     cin >> t;
     while (t--) {
         char input[N], pw[N], encrypt[N], en, tmp;
-        char* p = input, * q = pw, * s = encrypt;
+        char *p = input, *q = pw, *s = encrypt;
         cin >> input >> pw;
         pw_length = length(pw);
-        int  i = 0, j = 0;
+        int i = 0, j = 0;
         while (*(p + i) != '\0') {
             if (j + 1 > pw_length) j = 0;
             tmp = *(p + i) + *(q + j) - '0';
             if (tmp > 'A' && tmp > 'Z' && tmp < 'a') {
                 tmp = 'Z' - tmp;
                 en = tmp + 'A' + *(q + j) - '0';
-            }
-            else if (tmp > 'a' && tmp > 'z') {
+            } else if (tmp > 'a' && tmp > 'z') {
                 tmp = 'z' - tmp;
                 en = tmp + 'a' + *(q + j) - '0';
-            }
-            else {
+            } else {
                 en = tmp;
             }
-            
+
             *(s + i) = en;
-            
+
             i++;
             j++;
         }
-        
+
         *(s + i) = '\0';
-        
+
         cout << s << endl;
     }
     return 0;

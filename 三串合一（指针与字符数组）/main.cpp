@@ -65,7 +65,7 @@ int main() {
     int t, length, k;
     char *p;
     cin >> t;
-    
+
     while (t--) {
         length = 0;
         k = 0;
@@ -84,8 +84,8 @@ int main() {
         }
         *(p + k) = '\0';
         cout << p << endl;
-        delete [] p;
+        delete[] p;
     }
-    
+
     return 0;
 }

@@ -113,58 +113,51 @@
 #define D 7
 #define DATE YEAR, M, D
 #include <iostream>
-#include <string>
 #include <map>
+#include <string>
 using namespace std;
 // 翻译转换
-map<char, string> m = {
-    {
-        'O', "original"
-    },
-    {
-        'T', "trial"
-    },
-    {
-        'B', "backup"
-    }
-};
+map<char, string> m = {{'O', "original"}, {'T', "trial"}, {'B', "backup"}};
 
 map<char, string> s = {
-    {
-        'D', "optical disk"
-    },
-    {
-        'H', "hard disk"
-    },
-    {
-        'U', "USB disk"
-    }
-};
+    {'D', "optical disk"}, {'H', "hard disk"}, {'U', "USB disk"}};
 
-class CDate
-{
+class CDate {
 private:
     int year, month, day;
-    int a[13]={0,31,28,31,30,31,30,31,31,30,31,30,31};
-    int b[13]={0,31,29,31,30,31,30,31,31,30,31,30,31};
+    int a[13] = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int b[13] = {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
 public:
-    CDate(int y = 0, int m = 0, int d = 0) { year = y; month = m; day = d; }
-    bool isLeapYear() { return (year%4 == 0 && year%100 != 0) || year%400 == 0; }
-    int getYear() { return year; }
-    int getMonth() { return month; }
-    int getDay() { return day; }
-    int getDayofYear()         //计算日期从当年1月1日算起的天数
+    CDate(int y = 0, int m = 0, int d = 0) {
+        year = y;
+        month = m;
+        day = d;
+    }
+    bool isLeapYear() {
+        return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
+    }
+    int getYear() {
+        return year;
+    }
+    int getMonth() {
+        return month;
+    }
+    int getDay() {
+        return day;
+    }
+    int getDayofYear()  //计算日期从当年1月1日算起的天数
     {
-        int i, sum=day;
-        
+        int i, sum = day;
+
         if (isLeapYear())
-            for(i=0;i<month;i++)   sum +=b[i];
+            for (i = 0; i < month; i++) sum += b[i];
         else
-            for(i=0;i<month;i++)   sum +=a[i];
-        
+            for (i = 0; i < month; i++) sum += a[i];
+
         return sum;
     }
-    int * getDaysofMonth() {
+    int *getDaysofMonth() {
         if (isLeapYear())
             return a;
         else
@@ -184,10 +177,11 @@ private:
     string name;
     char type, storage;
     CDate exp;
+
 public:
     Software(string _name, char _type, CDate _exp, char _storage)
         : name(_name), type(_type), exp(_exp), storage(_storage) {}
-    Software(const Software & orig): name(orig.name), exp(orig.exp) {
+    Software(const Software &orig) : name(orig.name), exp(orig.exp) {
         this->type = 'B';
         this->storage = 'H';
     }
@@ -204,24 +198,23 @@ public:
                 cout << "this software has expired" << endl;
             } else {
                 unsigned int days = 0;
-                
+
                 // 预设年一整年日期加上直到过期年前一年的天数
                 for (int i = YEAR; i < exp.getYear(); i++) {
                     days += CDate(i, 12, 31).getDayofYear();
                 }
-                
+
                 // 过期年 直到过期日的天数
                 days += exp.getDayofYear();
                 // 减去预设年 1.1到预设日之前的天数
                 days -= CDate(DATE).getDayofYear();
-                cout << "this software is going to be expired in " << days << " days" << endl;
+                cout << "this software is going to be expired in " << days
+                     << " days" << endl;
             }
         }
         cout << endl;
     }
-    
 };
-
 
 int main() {
     int t, y, m, d;

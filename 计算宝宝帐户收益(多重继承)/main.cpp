@@ -150,8 +150,8 @@ Password or ID incorrect
 */
 
 #define _CRT_SECURE_NO_WARNINGS
-#include <iostream>
 #include <cstring>
+#include <iostream>
 using namespace std;
 
 class CPeople {
@@ -167,8 +167,9 @@ protected:
 class CInternetUser : public CPeople {
 private:
     char password[20];
+
 public:
-    CInternetUser(char* id, char* name, char* pwd): CPeople(id, name) {
+    CInternetUser(char* id, char* name, char* pwd) : CPeople(id, name) {
         strcpy(password, pwd);
     }
     bool login(char* id, char* pwd) {
@@ -179,8 +180,9 @@ public:
 class CBankCustomer : public CPeople {
 protected:
     double balance = 0;
+
 public:
-    CBankCustomer(char* id, char* name): CPeople(id, name) {}
+    CBankCustomer(char* id, char* name) : CPeople(id, name) {}
     void deposit(double money) {
         balance += money;
     }
@@ -194,10 +196,12 @@ public:
 class CInternetBankCustomer : public CInternetUser, public CBankCustomer {
 protected:
     double _balance = 0, yesterday_balance = 0, today_income = 0,
-        yesterday_interest = 0, today_interest = 0;
+           yesterday_interest = 0, today_interest = 0;
+
 public:
-    CInternetBankCustomer(char * i_xm, char* i_id, char* i_mm, char* b_xm, char* b_id)
-        : CInternetUser(i_id, i_xm, i_mm), CBankCustomer(b_id,b_xm){}
+    CInternetBankCustomer(char* i_xm, char* i_id, char* i_mm, char* b_xm,
+                          char* b_id)
+        : CInternetUser(i_id, i_xm, i_mm), CBankCustomer(b_id, b_xm) {}
     //从互联网金融转入银行帐户
     bool withdraw(double money) {
         if (_balance - money < 0) return false;
@@ -224,15 +228,15 @@ public:
         yesterday_balance = _balance;
     }
     void print() {
-        cout << "Name: "<< CBankCustomer::name << " ID: " << CBankCustomer::id << endl;
+        cout << "Name: " << CBankCustomer::name << " ID: " << CBankCustomer::id
+             << endl;
         cout << "Bank balance: " << CBankCustomer::balance << endl;
         cout << "Internet bank balance: " << _balance << endl;
         cout << endl;
     }
 };
 
-int main()
-{
+int main() {
     int t, no_of_days, i;
     char i_xm[20], i_id[20], i_mm[20], b_xm[20], b_id[20], ib_id[20], ib_mm[20];
     double money, interest;
@@ -240,8 +244,7 @@ int main()
 
     //输入测试案例数t
     cin >> t;
-    while (t--)
-    {
+    while (t--) {
         //输入互联网用户注册时的用户名,id,登陆密码
         cin >> i_xm >> i_id >> i_mm;
 
@@ -256,7 +259,9 @@ int main()
         //ib_user.registerUser(i_xm, i_id, i_mm);
         //ib_user.openAccount(b_xm, b_id);
 
-        if (!ib_user.login(ib_id, ib_mm) || strcmp(b_id, i_id) != 0 || strcmp(b_xm, i_xm) != 0)  //互联网用户登陆,若id与密码不符;以及银行开户姓名和id与互联网开户姓名和id不同
+        if (!ib_user.login(ib_id, ib_mm) || strcmp(b_id, i_id) != 0 ||
+            strcmp(b_xm, i_xm) !=
+                0)  //互联网用户登陆,若id与密码不符;以及银行开户姓名和id与互联网开户姓名和id不同
         {
             cout << "Password or ID incorrect" << endl;
             continue;
@@ -264,43 +269,38 @@ int main()
 
         //输入天数
         cin >> no_of_days;
-        for (i = 0; i < no_of_days; i++)
-        {
+        for (i = 0; i < no_of_days; i++) {
             //输入操作代码, 金额, 当日万元收益
             cin >> op_code >> money >> interest;
-            switch (op_code)
-            {
-            case 'S':  //从银行向互联网金融帐户存入
-            case 's':
-                if (!ib_user.deposit(money))
-                {
-                    cout << "Bank balance not enough" << endl;
+            switch (op_code) {
+                case 'S':  //从银行向互联网金融帐户存入
+                case 's':
+                    if (!ib_user.deposit(money)) {
+                        cout << "Bank balance not enough" << endl;
+                        continue;
+                    }
+                    break;
+                case 'T':  //从互联网金融转入银行帐户
+                case 't':
+                    if (!ib_user.withdraw(money)) {
+                        cout << "Internet bank balance not enough" << endl;
+                        continue;
+                    }
+                    break;
+                case 'D':  //直接向银行帐户存款
+                case 'd':
+                    ib_user.CBankCustomer::deposit(money);
+                    break;
+                case 'W':  //直接从银行帐户取款
+                case 'w':
+                    if (!ib_user.CBankCustomer::withdraw(money)) {
+                        cout << "Bank balance not enough" << endl;
+                        continue;
+                    }
+                    break;
+                default:
+                    cout << "Illegal input" << endl;
                     continue;
-                }
-                break;
-            case 'T':  //从互联网金融转入银行帐户
-            case 't':
-                if (!ib_user.withdraw(money))
-                {
-                    cout << "Internet bank balance not enough" << endl;
-                    continue;
-                }
-                break;
-            case 'D':  //直接向银行帐户存款
-            case 'd':
-                ib_user.CBankCustomer::deposit(money);
-                break;
-            case 'W':  //直接从银行帐户取款
-            case 'w':
-                if (!ib_user.CBankCustomer::withdraw(money))
-                {
-                    cout << "Bank balance not enough" << endl;
-                    continue;
-                }
-                break;
-            default:
-                cout << "Illegal input" << endl;
-                continue;
             }
             ib_user.setInterest(interest);
             ib_user.calculateProfit();

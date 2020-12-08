@@ -74,7 +74,7 @@ class Matrix {
     int m, n;
     int **data;
 
-   public:
+public:
     Matrix(int _m, int _n, bool use_cin = true) : m(_m), n(_n) {
         data = new int *[m];
         for (int i = 0; i < m; i++) {
@@ -103,7 +103,9 @@ class Matrix {
             cout << endl;
         }
     }
-    ~Matrix() { delete[] data; }
+    ~Matrix() {
+        delete[] data;
+    }
 };
 
 int main() {

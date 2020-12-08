@@ -28,7 +28,7 @@
  0
  */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -36,7 +36,7 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> a >> b >> c;
-        cout << (a + b > c&& b == c) << endl;
+        cout << (a + b > c && b == c) << endl;
     }
     return 0;
 }

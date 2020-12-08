@@ -39,20 +39,20 @@ S China
  */
 
 #define N 1000
-#include <iostream>
 #include <cmath>
+#include <iostream>
 
 using namespace std;
 
 int sq(int n) {
-    return n*n;
+    return n * n;
 }
 
 float _sqrt(float n) {
     return sqrt(n);
 }
 
-void capital(char * p) {
+void capital(char *p) {
     while (*p != '\0') {
         if (*p >= 'a' && *p <= 'z') {
             *p -= 32;

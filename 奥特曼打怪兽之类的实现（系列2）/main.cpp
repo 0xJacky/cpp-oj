@@ -150,7 +150,7 @@ private:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
-    
+
 public:
     // 初始化(利用构造函数完成初始化)，参数是等级，等级与其他属性的关系：
     // 生命是等级10倍，攻击是等级3倍，金钱是等级的10倍，经验开始为0。
@@ -174,7 +174,7 @@ private:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
-    
+
 public:
     // 初始化（利用构造函数完成初始化），参数是等级，等级与其他属性的关系：
     // 生命是等级20倍，攻击是等级2倍，金钱是等级的10倍，经验值是等级的10倍。
@@ -189,13 +189,11 @@ public:
 };
 // 初始化(利用构造函数完成初始化)，参数是等级，等级与其他属性的关系：
 // 生命是等级10倍，攻击是等级3倍，金钱是等级的10倍，经验开始为0。
-Ultraman::Ultraman(int _rank) :
-rank(_rank), hp(10 * rank), damage(3 * rank), money(10 * rank) {
-    
-}
+Ultraman::Ultraman(int _rank)
+    : rank(_rank), hp(10 * rank), damage(3 * rank), money(10 * rank) {}
 void Ultraman::display() {
-    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n",
-           rank, hp, damage, exp, money);
+    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n", rank, hp, damage, exp,
+           money);
 }
 void Ultraman::escape() {
     money = 0;
@@ -256,13 +254,16 @@ int Ultraman::getMoney() {
 
 // 初始化（利用构造函数完成初始化），参数是等级，等级与其他属性的关系：
 // 生命是等级20倍，攻击是等级2倍，金钱是等级的10倍，经验值是等级的10倍。
-Monster::Monster(int _rank) :
-rank(_rank), hp(20 * rank), damage(2 * rank),
-money(10 * rank), exp(10 * rank) {}
+Monster::Monster(int _rank)
+    : rank(_rank),
+      hp(20 * rank),
+      damage(2 * rank),
+      money(10 * rank),
+      exp(10 * rank) {}
 
 void Monster::display() {
-    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n",
-           rank, hp, damage, exp, money);
+    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n", rank, hp, damage, exp,
+           money);
 }
 
 void Monster::attacked(Ultraman& u) {
@@ -289,10 +290,9 @@ int Monster::getDamage() {
 int Monster::getMoney() {
     return money;
 }
-int main()
-{
+int main() {
     int t;
-    cin >> t;   //表示有t个测试实例
+    cin >> t;  //表示有t个测试实例
     // 每个实例就是奥特曼与怪兽的1对1战斗
     while (t--) {
         //1. 输入奥特曼和怪兽的等级，并调用初始化方法进行对象初始化
@@ -305,13 +305,13 @@ int main()
         m.display();
         //3. 设置战斗标志flag为true，启动战斗循环，具体如下：
         bool flag = true;
-        while (flag) //当战斗未结束就继续
+        while (flag)  //当战斗未结束就继续
         {
             //奥特曼攻击1次，或者是怪兽被攻击1次
             m.attacked(u);
             /*怪兽没死*/
             //用怪兽生命来判断，用get方法啦
-            if (m.getHp()>0) {
+            if (m.getHp() > 0) {
                 //怪兽反击1次，或者是奥特曼被攻击1次
                 u.attacked(m);
                 /*奥特曼不必逃跑*/
@@ -319,8 +319,7 @@ int main()
                 if (u.getHp() >= 10) {
                     //奥特曼回血，在方法中判断是否需要加血
                     u.restore();
-                }
-                else {
+                } else {
                     //奥特曼逃跑，并输出"lose"并回车
                     u.escape();
                     //输出奥特曼状态，调用display方法
@@ -328,9 +327,7 @@ int main()
                     //设置flag为false，停止战斗
                     flag = false;
                 }
-            }
-            else
-            {
+            } else {
                 //怪兽死了
                 //奥特曼胜利，并输出"win"并回车
                 u.win(m);
@@ -340,7 +337,6 @@ int main()
                 //设置flag为false，停止战斗
                 flag = false;
             }
-            
         }
     }
     return 0;

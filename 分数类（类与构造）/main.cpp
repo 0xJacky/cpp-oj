@@ -74,17 +74,17 @@
 #include <iostream>
 using namespace std;
 
-class CFraction
-{
+class CFraction {
 private:
     int fz, fm;
+
 public:
     CFraction(int fz_val, int fm_val);
     CFraction add(const CFraction& r);
     CFraction sub(const CFraction& r);
     CFraction mul(const CFraction& r);
     CFraction div(const CFraction& r);
-    int getGCD();   // 求对象的分子和分母的最大公约数
+    int getGCD();  // 求对象的分子和分母的最大公约数
     void print();
 };
 
@@ -151,8 +151,7 @@ void swap(int a, int b) {
     }
 }
 
-int main()
-{
+int main() {
     int t, a, b, c, d;
     char _g;
     cin >> t;
@@ -164,8 +163,6 @@ int main()
         f1.mul(f2).print();
         f1.div(f2).print();
         cout << endl;
-        
     }
     return 0;
 }
-

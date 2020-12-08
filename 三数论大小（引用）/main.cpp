@@ -51,7 +51,7 @@ int main() {
         f(a, b);
         f(a, c);
         f(b, c);
-        cout << a << " "<< b << " " << c << endl;
+        cout << a << " " << b << " " << c << endl;
     }
     return 0;
 }

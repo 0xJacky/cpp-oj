@@ -44,44 +44,45 @@
  point clear
  */
 
-#include <iostream>
 #include <cmath>
+#include <iostream>
 using namespace std;
 
 class Point {
 protected:
     int x, y;
     Point* children;
+
 public:
     Point() {
         setXY();
     }
-    
+
     Point(int x, int y) {
         setXY(x, y);
     }
-    
+
     Point(int n) {
         children = new Point[n];
     }
-    
+
     void setXY(int x = 0, int y = 0) {
         this->x = x;
         this->y = y;
     }
-    
+
     int getX() {
         return x;
     }
-    
+
     int getY() {
         return y;
     }
-    
+
     Point& getChild(int i) {
         return children[i];
     }
-    
+
     ~Point() {
         setXY();
         cout << "point clear" << endl;
@@ -91,19 +92,20 @@ public:
 class Circle {
 protected:
     int x, y, r;
+
 public:
-    Circle(int _x, int _y, int _r): x(_x), y(_y), r(_r) {}
-    
+    Circle(int _x, int _y, int _r) : x(_x), y(_y), r(_r) {}
+
     void Contain(Point& p) {
-        auto d = sqrt((x - p.getX()) * (x - p.getX()) + (y - p.getY()) * (y - p.getY()));
+        auto d = sqrt((x - p.getX()) * (x - p.getX()) +
+                      (y - p.getY()) * (y - p.getY()));
         if (d > r) {
             cout << "out" << endl;
-        }
-        else {
+        } else {
             cout << "in" << endl;
         }
     }
-    
+
     ~Circle() {
         this->x = 0;
         this->y = 0;
@@ -114,22 +116,22 @@ public:
 int main() {
     int x, y, r, n;
     cin >> x >> y >> n;
-    
-    Point p(x, y), * points = new Point(n);
-    
+
+    Point p(x, y), *points = new Point(n);
+
     for (int i = 0; i < n; i++) {
         cin >> x >> y;
         points->getChild(i).setXY(x, y);
     }
-    
+
     cin >> x >> y >> r;
-    
+
     Circle c(x, y, r);
     c.Contain(p);
-    
+
     for (int i = 0; i < n; i++) {
         c.Contain(points->getChild(i));
     }
-    
+
     return 0;
 }

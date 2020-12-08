@@ -40,24 +40,24 @@
  error
  提示
  */
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
-    const char* p[] = {"January",  "February", "March", "April", "May", "June", "July", "Aguest", "September", "October", "November", "December"};
+    const char* p[] = {"January",   "February", "March",    "April",
+                       "May",       "June",     "July",     "Aguest",
+                       "September", "October",  "November", "December"};
     int t, m;
     cin >> t;
-    
+
     while (t--) {
         cin >> m;
         if (m >= 1 && m <= 12) {
             cout << p[m - 1] << endl;
-        }
-        else {
+        } else {
             cout << "error" << endl;
         }
     }
-    
+
     return 0;
 }
-

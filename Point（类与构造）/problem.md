@@ -12,8 +12,8 @@
  输出p1到p2的距离  
  在C++中，输出指定精度的参考代码如下：  
    
- #include <iostream>  
  #include <iomanip> //必须包含这个头文件  
+ #include <iostream>  
  using namespace std;  
  void main( )  
  { double a =3.141596;  

@@ -21,8 +21,8 @@
  输出方程的根，结果到小数点后2位
  在C++中，输出指定精度的参考代码如下：
  
- #include <iostream>
  #include <iomanip> //必须包含这个头文件
+ #include <iostream>
  using namespace std;
  void main( )
  { double a =3.141596;
@@ -40,13 +40,14 @@
  x1=-0.27 x2=-3.73
  提示
  */
-#include <iostream>
+#include <cmath>
 #include <iomanip>
-#include<cmath>
+#include <iostream>
 using namespace std;
 
 class Equation {
     double a, b, c;
+
 public:
     Equation() {
         set(1, 1, 0);
@@ -64,20 +65,19 @@ public:
         double s_delta = sqrt(fabs(delta));
         cout << fixed << setprecision(2);
         if (delta > 0) {
-            cout << "x1=" << (-b + s_delta) / (2 * a) << " x2=" << (-b - s_delta) / (2 * a);
-        }
-        else if (delta < 0) {
-            cout << "x1=" << -b / (2 * a) << "+" << s_delta / (2 * a) << "i x2=" << -b / (2 * a) << "-" << s_delta / (2 * a) << "i";
-        }
-        else {
+            cout << "x1=" << (-b + s_delta) / (2 * a)
+                 << " x2=" << (-b - s_delta) / (2 * a);
+        } else if (delta < 0) {
+            cout << "x1=" << -b / (2 * a) << "+" << s_delta / (2 * a)
+                 << "i x2=" << -b / (2 * a) << "-" << s_delta / (2 * a) << "i";
+        } else {
             cout << "x1=x2=" << (-b + s_delta) / (2 * a);
         }
         cout << endl;
     }
 };
 
-int main()
-{
+int main() {
     int t;
     double a, b, c;
     cin >> t;

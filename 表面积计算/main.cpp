@@ -27,7 +27,7 @@
  22
  148
  */
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -35,8 +35,8 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> a >> b >> c;
-        cout << ((a*b+b*c+a*c)*2) << endl;
+        cout << ((a * b + b * c + a * c) * 2) << endl;
     }
-    
+
     return 0;
 }

@@ -52,30 +52,31 @@ private:
     int numerator, denominator;
     int common_divisor();
     void contracted();
+
 public:
-    Fraction(int n = 0, int d = 1): numerator(n), denominator(d) {}
+    Fraction(int n = 0, int d = 1) : numerator(n), denominator(d) {}
     //Fraction(Fraction&);
-    Fraction operator+(const Fraction & f) {
+    Fraction operator+(const Fraction& f) {
         auto n = numerator * f.denominator + f.numerator * denominator;
         auto d = denominator * f.denominator;
         return Fraction(n, d);
     }
-    Fraction operator-(const Fraction & f) {
+    Fraction operator-(const Fraction& f) {
         auto n = numerator * f.denominator - f.numerator * denominator;
         auto d = denominator * f.denominator;
         return Fraction(n, d);
     }
-    Fraction operator*(const Fraction & f) {
+    Fraction operator*(const Fraction& f) {
         auto n = numerator * f.numerator;
         auto d = denominator * f.denominator;
         return Fraction(n, d);
     }
-    Fraction operator/(const Fraction & f) {
+    Fraction operator/(const Fraction& f) {
         auto n = numerator * f.denominator;
         auto d = denominator * f.numerator;
         return Fraction(n, d);
     }
-    void Set(int n = 0,int d = 1) {
+    void Set(int n = 0, int d = 1) {
         this->numerator = n;
         this->denominator = d;
     }
@@ -84,16 +85,15 @@ public:
     }
 };
 
-
 int main() {
     int n, d;
     cin >> n >> d;
     Fraction a(n, d);
     cin >> n >> d;
     Fraction b(n, d);
-    (a+b).display();
-    (a-b).display();
-    (a*b).display();
-    (a/b).display();
+    (a + b).display();
+    (a - b).display();
+    (a * b).display();
+    (a / b).display();
     return 0;
 }

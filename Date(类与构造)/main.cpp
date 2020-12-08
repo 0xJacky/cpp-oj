@@ -60,6 +60,7 @@ using namespace std;
 
 class Date {
     int year, month, day;
+
 public:
     Date();
     Date(int y, int m, int d);
@@ -123,10 +124,7 @@ int Date::isLeapYear(int y) {
     return (y % 4 == 0 && y % 100) || (y % 400 == 0);
 }
 
-
-
-int main()
-{
+int main() {
     int t, y, m, d;
     cin >> t;
     while (t--) {
@@ -137,4 +135,3 @@ int main()
     }
     return 0;
 }
-

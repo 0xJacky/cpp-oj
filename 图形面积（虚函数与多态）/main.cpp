@@ -62,8 +62,8 @@
  */
 
 #define PI 3.1415
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 using namespace std;
 
 class Shape {
@@ -92,13 +92,13 @@ public:
 class Rectangle : public Shape {
 public:
     float x, y;
-    Rectangle(float _x, float  _y) : x(_x), y(_y) {}
+    Rectangle(float _x, float _y) : x(_x), y(_y) {}
     float Area() {
         return x * y;
     }
 };
 
-void print_area(Shape * s) {
+void print_area(Shape *s) {
     cout << fixed << setprecision(2) << s->Area() << endl;
 }
 
@@ -107,7 +107,7 @@ int main() {
     float x, y;
     cin >> t;
     while (t--) {
-        Shape **p = new Shape * [3];
+        Shape **p = new Shape *[3];
         cin >> x;
         p[0] = new Circle(x);
         print_area(p[0]);
@@ -117,7 +117,7 @@ int main() {
         cin >> x >> y;
         p[2] = new Rectangle(x, y);
         print_area(p[2]);
-        delete [] p;
+        delete[] p;
     }
     return 0;
 }

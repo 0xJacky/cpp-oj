@@ -53,24 +53,24 @@
 #include <map>
 using namespace std;
 
-map <char, string> trans_type = {
-    {'P', "Person"},
-    {'E', "Enterprise"}
-};
+map<char, string> trans_type = {{'P', "Person"}, {'E', "Enterprise"}};
 
 class BankAccount {
 public:
-    BankAccount(int n, char t, float b): balance(b), number(n),
-    type(t), rate(H) {}
-    BankAccount(BankAccount& b): balance(b.balance),
-    number(b.number + ADD), type(b.type), rate(D) {}
+    BankAccount(int n, char t, float b)
+        : balance(b), number(n), type(t), rate(H) {}
+    BankAccount(BankAccount& b)
+        : balance(b.balance), number(b.number + ADD), type(b.type), rate(D) {}
     void count() {
         // balance += balance * rate;
-        cout << "Account=" << number <<"--sum=" << balance + (balance * rate) << endl;
+        cout << "Account=" << number << "--sum=" << balance + (balance * rate)
+             << endl;
     }
     void print() {
-        cout << "Account=" << number <<"--" << trans_type[type] <<"--sum=" << balance << "--rate=" << rate << endl;
+        cout << "Account=" << number << "--" << trans_type[type]
+             << "--sum=" << balance << "--rate=" << rate << endl;
     }
+
 private:
     float balance;
     int number;
@@ -78,33 +78,27 @@ private:
     float rate;
 };
 
-int main()
-{
+int main() {
     int t;
     cin >> t;
     float balance;
     int number;
     char type;
-    while (t--)
-    {
+    while (t--) {
         cin >> number >> type >> balance;
         BankAccount a(number, type, balance), b(a);
         cin >> type;
         if (type == 'C') {
             a.count();
-        }
-        else {
+        } else {
             a.print();
         }
         cin >> type;
         if (type == 'C') {
             b.count();
-        }
-        else {
+        } else {
             b.print();
         }
     }
     return 0;
 }
-
-

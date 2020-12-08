@@ -51,26 +51,29 @@ using namespace std;
 
 class Complex {
     float Real, Image;
+
 public:
-    Complex(float x = 0, float y = 0): Real(x), Image(y) {}
+    Complex(float x = 0, float y = 0) : Real(x), Image(y) {}
     friend Complex operator+(Complex &, Complex &);
     friend Complex operator-(Complex &, Complex &);
     friend Complex operator*(Complex &, Complex &);
     void show() {
-        cout << "Real=" << Real << " " <<"Image=" << Image << endl;
+        cout << "Real=" << Real << " "
+             << "Image=" << Image << endl;
     }
 };
 
-Complex operator+(Complex & a, Complex & b) {
+Complex operator+(Complex &a, Complex &b) {
     return Complex(a.Real + b.Real, a.Image + b.Image);
 }
 
-Complex operator-(Complex & a, Complex & b) {
+Complex operator-(Complex &a, Complex &b) {
     return Complex(a.Real - b.Real, a.Image - b.Image);
 }
 
-Complex operator*(Complex & a, Complex & b) {
-    return Complex(a.Real*b.Real-a.Image*b.Image, a.Real*b.Image+a.Image*b.Real);
+Complex operator*(Complex &a, Complex &b) {
+    return Complex(a.Real * b.Real - a.Image * b.Image,
+                   a.Real * b.Image + a.Image * b.Real);
 }
 
 int main() {
@@ -79,8 +82,8 @@ int main() {
     Complex a(real, image);
     cin >> real >> image;
     Complex b(real, image);
-    (a+b).show();
-    (a-b).show();
-    (a*b).show();
+    (a + b).show();
+    (a - b).show();
+    (a * b).show();
     return 0;
 }

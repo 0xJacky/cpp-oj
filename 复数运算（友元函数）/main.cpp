@@ -60,12 +60,13 @@ public:
     friend Complex addCom(Complex c1, Complex c2);
     friend Complex minusCom(Complex c1, Complex c2);
     friend void outCom(Complex c);
+
 private:
-    double real; //实部
-    double imag; //虚部
+    double real;  //实部
+    double imag;  //虚部
 };
 
-Complex::Complex(double r, double i) :real(r), imag(i) {}
+Complex::Complex(double r, double i) : real(r), imag(i) {}
 
 Complex addCom(Complex c1, Complex c2) {
     return Complex(c1.real + c2.real, c1.imag + c2.imag);
@@ -90,8 +91,7 @@ int main() {
         Complex c(r, i);
         if (opt == '+') {
             base = addCom(base, c);
-        }
-        else {
+        } else {
             base = minusCom(base, c);
         }
         outCom(base);

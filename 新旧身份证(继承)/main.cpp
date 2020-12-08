@@ -129,25 +129,26 @@
  
  */
 
-#define NOW 2015,4,7
+#define NOW 2015, 4, 7
 #define N 100
-#include <iostream>
-#include <cstring>
-#include <string>
 #include <cmath>
+#include <cstring>
+#include <iostream>
+#include <string>
 
 using namespace std;
 
-class CDate
-{
+class CDate {
 private:
     int year, month, day;
+
 public:
     CDate() {}
-    CDate(int y, int m, int d): year(y), month(m), day(d) {}
-    
+    CDate(int y, int m, int d) : year(y), month(m), day(d) {}
+
     bool check() {
-        static int daysOfMonth[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        static int daysOfMonth[] = {31, 28, 31, 30, 31, 30,
+                                    31, 31, 30, 31, 30, 31};
         if (isLeap()) {
             daysOfMonth[1] = 29;
         } else {
@@ -156,59 +157,57 @@ public:
         if (month < 1 || month > 12) {
             return false;
         }
-        return (day <= daysOfMonth[month-1]);
+        return (day <= daysOfMonth[month - 1]);
     }
-    
+
     bool isLeap() {
         return (year % 100 && year % 4 == 0) || year % 400 == 0;
     }
-    
+
     void print() {
         cout << year << "年" << month << "月" << day << "日 ";
     }
-    
+
     int getYear() {
         return year;
     }
-    
+
     int getMonth() {
         return month;
     }
-    
+
     int getDay() {
         return day;
     }
-    
+
     bool operator>(CDate &c) {
         auto a = getSum();
         auto b = c.getSum();
         return a > b;
     }
-    
+
     int getSum() {
         return year * 10000 + month * 100 + day;
     }
-    
 };
 
 class COldID
 
 {
 private:
-    
-    char *p_id15 = NULL, *p_name = NULL; //15位身份证号码，姓名
-    
-    CDate birthday; //出生日期
-    
+    char *p_id15 = NULL, *p_name = NULL;  //15位身份证号码，姓名
+
+    CDate birthday;  //出生日期
+
 public:
     COldID() {}
-    COldID(char *p_idval, char *p_nameval, CDate &day): birthday(day) {
-        p_id15 = new char[strlen(p_idval)+1];
-        p_name = new char[strlen(p_nameval)+1];
+    COldID(char *p_idval, char *p_nameval, CDate &day) : birthday(day) {
+        p_id15 = new char[strlen(p_idval) + 1];
+        p_name = new char[strlen(p_nameval) + 1];
         strcpy(p_id15, p_idval);
         strcpy(p_name, p_nameval);
     }
-    
+
     bool check() {
         // 长度
         auto length = strlen(p_id15);
@@ -222,31 +221,30 @@ public:
             i++;
         }
         // 生日合法
-        if(!birthday.check()) return false;
+        if (!birthday.check()) return false;
         // 年月日
         auto sum = 1.9 * pow(10, 7);
         for (int i = 6; i < 12; i++) {
-            sum += (*(p_id15 + i) - '0') * pow(10, fabs(4 - (i-7))) ;
+            sum += (*(p_id15 + i) - '0') * pow(10, fabs(4 - (i - 7)));
         }
         //cout << "15:" <<sum << endl;
         //cout << birthday.getSum() << endl;
         if (sum != birthday.getSum()) return false;
         return true;
     }
-    
+
     void print() {
         cout << p_id15;
     }
-    
+
     ~COldID() {
         if (p_id15 != NULL) {
-            delete [] p_id15;
+            delete[] p_id15;
         }
         if (p_name != NULL) {
-            delete [] p_name;
+            delete[] p_name;
         }
     }
-    
 };
 
 class CNewID : public COldID {
@@ -254,20 +252,22 @@ private:
     CDate issueday;
     CDate birthday;
     unsigned int validyear;
-    char * p_id18 = NULL;
-    char * p_name = NULL;
-    char * p_oid = NULL;
+    char *p_id18 = NULL;
+    char *p_name = NULL;
+    char *p_oid = NULL;
+
 public:
-    CNewID(char *p_oidval, char *p_idval, char *p_nameval, CDate &day, CDate & _issueday, unsigned int vy):
-    birthday(day), issueday(_issueday), validyear(vy) {
-        p_id18 = new char[strlen(p_idval)+1];
-        p_oid = new char[strlen(p_oidval)+1];
-        p_name = new char[strlen(p_nameval)+1];
+    CNewID(char *p_oidval, char *p_idval, char *p_nameval, CDate &day,
+           CDate &_issueday, unsigned int vy)
+        : birthday(day), issueday(_issueday), validyear(vy) {
+        p_id18 = new char[strlen(p_idval) + 1];
+        p_oid = new char[strlen(p_oidval) + 1];
+        p_name = new char[strlen(p_nameval) + 1];
         strcpy(p_id18, p_idval);
         strcpy(p_oid, p_oidval);
         strcpy(p_name, p_nameval);
     }
-    
+
     bool check() {
         // 长度
         auto length = strlen(p_id18);
@@ -284,38 +284,42 @@ public:
         for (int i = 0; i < 6; i++) {
             if (*(p_id18 + i) != *(p_oid + i)) return false;
         }
-        for (int i = 6; i < 15 ; i++) {
+        for (int i = 6; i < 15; i++) {
             if (*(p_id18 + i + 2) != *(p_oid + i)) return false;
         }
         // 校验码
         int v = 0;
-        static const int power[] = {7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2};
-        static const int code[] = {'1','0','X','9','8','7','6','5','4','3','2'};
+        static const int power[] = {7, 9, 10, 5,  8, 4, 2, 1, 6,
+                                    3, 7, 9,  10, 5, 8, 4, 2};
+        static const int code[] = {'1', '0', 'X', '9', '8', '7',
+                                   '6', '5', '4', '3', '2'};
         for (int i = 0; i < 17; i++) {
             v += (*(p_id18 + i) - '0') * power[i];
         }
         v %= 11;
         //cout << "v:" << v << endl;
         //cout << "*(p_id18+17):" << *(p_id18+17) << endl;
-        if (code[v] != *(p_id18+17)) return false;
+        if (code[v] != *(p_id18 + 17)) return false;
         // 生日合法 // 签发日期有效性
-        if(!birthday.check() || ! issueday.check()) return false;
+        if (!birthday.check() || !issueday.check()) return false;
         // 年月日
         auto sum = 0;
         for (int i = 6; i <= 13; i++) {
-            sum += (*(p_id18 + i) - '0') * pow(10, fabs(7 - (i-6))) ;
+            sum += (*(p_id18 + i) - '0') * pow(10, fabs(7 - (i - 6)));
         }
         //cout << "18:" <<sum << endl;
         //cout << "18:" << birthday.getSum() << endl;
         if (sum != birthday.getSum()) return false;
-        
+
         if (!issueday.check())
-        // 有效期
-        if (validyear != 100) {
-            CDate current(NOW), expired(issueday.getYear()+validyear, issueday.getMonth(), issueday.getDay());
-            if (expired > current) return false;
-        }
-        
+            // 有效期
+            if (validyear != 100) {
+                CDate current(NOW),
+                    expired(issueday.getYear() + validyear, issueday.getMonth(),
+                            issueday.getDay());
+                if (expired > current) return false;
+            }
+
         return true;
     }
     void print() {
@@ -358,6 +362,6 @@ int main() {
             cout << "illegal id" << endl;
         }
     }
-    
+
     return 0;
 }

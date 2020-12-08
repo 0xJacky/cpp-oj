@@ -56,7 +56,8 @@ class Robot;
 bool change(Robot& r, char type);
 class Robot {
 public:
-    Robot(string _name, char _type, int _level) :name(_name), type(_type), level(_level) {
+    Robot(string _name, char _type, int _level)
+        : name(_name), type(_type), level(_level) {
         change(*this, type);
     }
     string getName() {
@@ -92,6 +93,7 @@ public:
     void setDefense(int d) {
         defense = d;
     }
+
 private:
     string name;
     int blood;
@@ -128,7 +130,7 @@ int main() {
     int t, level, trans = 0;
     string name;
     char type, c;
-    
+
     cin >> t;
     while (t--) {
         cin >> name >> type >> level >> c;
@@ -137,10 +139,10 @@ int main() {
             trans++;
         }
         cout << r.getName() << "--" << r.getType() << "--" << r.getLevel()
-        << "--" << r.getBlood() << "--" << r.getDamage() << "--" << r.getDefense() << endl;
+             << "--" << r.getBlood() << "--" << r.getDamage() << "--"
+             << r.getDefense() << endl;
     }
-    
+
     cout << "The number of robot transform is " << trans << endl;
     return 0;
 }
-

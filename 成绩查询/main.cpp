@@ -46,12 +46,10 @@
 #include <iostream>
 using namespace std;
 int score[N];
-bool cmp(int x, int y)
-{
+bool cmp(int x, int y) {
     return x > y;
 }
-int main()
-{
+int main() {
     int t, n, f, c;
     cin >> t;
     while (t--) {
@@ -60,13 +58,12 @@ int main()
             cin >> score[i];
         }
         cin >> f;
-        c = (int) n / 2;
+        c = (int)n / 2;
         cout << *(score + (--c)) << " ";
         c = (int)n / 2;
         cout << *(score + (++c)) << endl;
         cout << *(score + (f - 1)) << endl;
     }
-    
+
     return 0;
 }
-

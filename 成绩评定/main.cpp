@@ -26,7 +26,7 @@
  F
  B
  */
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main() {
     int t;
@@ -34,11 +34,16 @@ int main() {
     cin >> t;
     while (t--) {
         cin >> s;
-        if (s >= 85) cout << "A" << endl;
-        else if (s >= 75 && s < 85) cout << "B" << endl;
-        else if (s >= 65 && s < 75) cout << "C" << endl;
-        else if (s >= 60 && s < 65) cout << "D" << endl;
-        else cout << "F" << endl;
+        if (s >= 85)
+            cout << "A" << endl;
+        else if (s >= 75 && s < 85)
+            cout << "B" << endl;
+        else if (s >= 65 && s < 75)
+            cout << "C" << endl;
+        else if (s >= 60 && s < 65)
+            cout << "D" << endl;
+        else
+            cout << "F" << endl;
     }
     return 0;
 }

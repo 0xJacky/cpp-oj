@@ -25,8 +25,8 @@
  每行输出兑换后的人民币数量，保留4位小数
  在C++中，输出指定精度的参考代码如下：
  
- #include <iostream>
  #include <iomanip> //必须包含这个头文件
+ #include <iostream>
  using namespace std;
  void main( )
  { double a =3.141596;
@@ -50,30 +50,33 @@
 #define EU 6.6744
 #define JP 0.0516
 #define HKD 0.8065
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     const double usd = USD;
     const double eu = EU;
     const double jp = JP;
     const double hkd = HKD;
-    
+
     int t;
     double input, ans;
     char type;
-    
+
     cin >> t;
     while (t--) {
         cin >> type >> input;
-        if (type == 'Y') ans = jp * input;
-        else if (type == 'D') ans = usd * input;
-        else if (type == 'E') ans = eu * input;
-        else if (type == 'H') ans = hkd * input;
+        if (type == 'Y')
+            ans = jp * input;
+        else if (type == 'D')
+            ans = usd * input;
+        else if (type == 'E')
+            ans = eu * input;
+        else if (type == 'H')
+            ans = hkd * input;
         cout << fixed << setprecision(4) << ans << endl;
     }
-    
+
     return 0;
 }

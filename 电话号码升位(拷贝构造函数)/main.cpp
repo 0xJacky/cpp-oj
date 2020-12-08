@@ -50,45 +50,43 @@
  */
 
 #define N 100
-#include <iostream>
 #include <cstring>
+#include <iostream>
 using namespace std;
-
 
 class CTelNumber {
 public:
     char* tel = NULL;
     CTelNumber(char* t) {
-        tel = new char[strlen(t)+1];
+        tel = new char[strlen(t) + 1];
         strcpy(tel, t);
     }
     CTelNumber(const CTelNumber& c) {
         unsigned long int len = strlen(c.tel);
         bool safe = true;
-        
+
         if (c.tel[0] < '2' || c.tel[0] > '8') {
             safe = false;
         }
-        
+
         for (unsigned long int i = 1; i < len; i++) {
             if (c.tel[i] < '0' || c.tel[i] > '9') {
                 safe = false;
                 break;
             }
         }
-        
+
         if (len == 7 && safe) {
             tel = new char[len + 2];
-            
+
             if (c.tel[0] >= '2' && c.tel[0] <= '4') {
                 tel[0] = '8';
-            }
-            else if (c.tel[0] >= '5' && c.tel[0] <= '8') {
+            } else if (c.tel[0] >= '5' && c.tel[0] <= '8') {
                 tel[0] = '2';
             }
-            
+
             tel[len + 1] = '\0';
-            
+
             for (unsigned long int i = 0; i < len; i++) {
                 tel[i + 1] = c.tel[i];
             }
@@ -110,8 +108,7 @@ int main() {
         CTelNumber orig(tel), upgraded(orig);
         if (upgraded.tel == NULL) {
             cout << "Illegal phone number" << endl;
-        }
-        else {
+        } else {
             cout << upgraded.tel << endl;
         }
     }

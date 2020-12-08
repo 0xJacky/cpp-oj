@@ -36,19 +36,19 @@
  14 91
  提示
  */
+#include <limits.h>
+
 #include <iostream>
-#include<limits.h>
 using namespace std;
 
-int main()
-{
+int main() {
     int t, m, n, **p, max, min;
     cin >> t;
     while (t--) {
         min = INT_MAX;
         max = INT_MIN;
         cin >> m >> n;
-        p = new int * [m];
+        p = new int*[m];
         for (int i = 0; i < m; i++) {
             p[i] = new int[n];
             for (int j = 0; j < n; j++) {
@@ -56,7 +56,7 @@ int main()
                 if (p[i][j] > max) {
                     max = p[i][j];
                 }
-                
+
                 if (p[i][j] < min) {
                     min = p[i][j];
                 }

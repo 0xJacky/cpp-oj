@@ -58,7 +58,7 @@ int main() {
         }
         for (int i = X - 1; i >= 0; i--) {
             for (int j = 0; j < Y; j++) {
-                cout << *(*(input+j)+i) << ' ';
+                cout << *(*(input + j) + i) << ' ';
             }
             cout << endl;
         }

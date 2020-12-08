@@ -52,29 +52,30 @@
  */
 #define N 3
 #include <iostream>
-#include <string>
 #include <map>
+#include <string>
 using namespace std;
 
-map <int, int> buffer;
+map<int, int> buffer;
 
 class Phone {
 public:
-    Phone(int _n, char _t, int _s, string _u):
-    number(_n), type(_t), status(_s), username(_u) {
+    Phone(int _n, char _t, int _s, string _u)
+        : number(_n), type(_t), status(_s), username(_u) {
         cout << number << " constructed." << endl;
     }
     ~Phone() {
         cout << number << " destructed. " << endl;
     }
     void print() {
-        static const char * state[] = {"unuse", "use"};
-        cout << "Phone=" << number << "--Type=" << type << "--State="
-        << state[status] << "--Owner="<< username << endl;
+        static const char* state[] = {"unuse", "use"};
+        cout << "Phone=" << number << "--Type=" << type
+             << "--State=" << state[status] << "--Owner=" << username << endl;
     }
     int query(int n) {
         return n == number;
     }
+
 private:
     int number;
     char type;
@@ -82,36 +83,33 @@ private:
     string username;
 };
 
-int main()
-{
+int main() {
     int number, status;
     char type;
     string name;
-    
-    Phone** phone = new Phone * [N];
+
+    Phone** phone = new Phone*[N];
     for (int i = 0; i < N; i++) {
         cin >> number >> type >> status >> name;
         phone[i] = new Phone(number, type, status, name);
         buffer[number] = i + 1;
     }
-    
+
     int t;
     cin >> t;
-    while (t--)
-    {
+    while (t--) {
         cin >> number;
         if (buffer[number]) {
             phone[buffer[number] - 1]->print();
-        }
-        else {
+        } else {
             cout << "wrong number." << endl;
         }
     }
-    
+
     for (int i = N - 1; i >= 0; i--) {
         delete phone[i];
     }
     delete[] phone;
-    
+
     return 0;
 }

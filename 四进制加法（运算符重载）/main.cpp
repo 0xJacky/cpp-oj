@@ -34,14 +34,15 @@ using namespace std;
 
 class QuaternaryInt {
     string value;
+
 public:
-    QuaternaryInt(string v = "0"): value(v) {
+    QuaternaryInt(string v = "0") : value(v) {
         while (value.length() < N) {
-            value = "0" +  value;
+            value = "0" + value;
         }
     }
-    
-    QuaternaryInt operator+(QuaternaryInt &a) {
+
+    QuaternaryInt operator+(QuaternaryInt& a) {
         string v, tmp;
         stringstream ss;
         int next = 0, current = 0;
@@ -60,14 +61,14 @@ public:
         }
         return QuaternaryInt(v);
     }
-    
-    friend ostream& operator<<(ostream& cout, QuaternaryInt &a);
+
+    friend ostream& operator<<(ostream& cout, QuaternaryInt& a);
 };
 
-ostream & operator<<(ostream& cout, QuaternaryInt &a) {
+ostream& operator<<(ostream& cout, QuaternaryInt& a) {
     int i;
     for (i = 0; i < N - 1; i++) {
-        if(a.value[i]!='0')break;
+        if (a.value[i] != '0') break;
     }
     return cout << a.value.substr(i, N);
 }

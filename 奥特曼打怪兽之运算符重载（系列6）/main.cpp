@@ -177,12 +177,12 @@ using namespace std;
 class Monster;
 
 class Player {
-   protected:
+protected:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
 
-   public:
+public:
     Player();
     Player(int _rank, int _exp, int _hp, int _damage, int _money)
         : rank(_rank), exp(_exp), hp(_hp), damage(_damage), money(_money) {}
@@ -196,7 +196,7 @@ class Player {
 //这里开始写类的界面代码
 //奥特曼类的界面
 class Ultraman : public Player {
-   public:
+public:
     Ultraman(int _rank);
     friend ostream& operator<<(ostream& cout, Ultraman& u);
     Ultraman& operator++();
@@ -208,7 +208,7 @@ class Ultraman : public Player {
 // 怪兽类的界面
 // 怪兽（Monster）
 class Monster : public Player {
-   public:
+public:
     Monster(int rank);
     Monster(int _rank, int _damage, int _hp, int _money, int _exp)
         : Player(_rank, _exp, _hp, _damage, _money) {}
@@ -282,15 +282,25 @@ ostream& operator<<(ostream& cout, Monster& m) {
     return cout;
 }
 
-int Player::getRank() { return rank; }
+int Player::getRank() {
+    return rank;
+}
 
-int Player::getExp() { return exp; }
+int Player::getExp() {
+    return exp;
+}
 
-int Player::getHp() { return hp; }
+int Player::getHp() {
+    return hp;
+}
 
-int Player::getDamage() { return damage; }
+int Player::getDamage() {
+    return damage;
+}
 
-int Player::getMoney() { return money; }
+int Player::getMoney() {
+    return money;
+}
 
 int main() {
     int ograd;

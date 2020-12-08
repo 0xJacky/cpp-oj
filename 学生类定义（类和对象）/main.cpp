@@ -40,72 +40,73 @@ protected:
     string gender;
     string location;
     string phone;
+
 public:
     Student& setName(string name) {
         this->name = name;
         return *this;
     }
-    
+
     Student& setID(string id) {
         this->id = id;
         return *this;
     }
-    
+
     Student& setCollege(string college) {
         this->college = college;
         return *this;
     }
-    
+
     Student& setMajor(string major) {
         this->major = major;
         return *this;
     }
-    
+
     Student& setGender(string gender) {
         this->gender = gender;
         return *this;
     }
-    
+
     Student& setLocation(string location) {
         this->location = location;
         return *this;
     }
-    
+
     Student& setPhone(string phone) {
         this->phone = phone;
         return *this;
     }
-    
+
     Student& getName() {
         cout << name << " ";
         return *this;
     }
-    
+
     Student& getID() {
         cout << id << " ";
         return *this;
     }
-    
+
     Student& getCollege() {
         cout << college << " ";
         return *this;
     }
-    
+
     Student& getMajor() {
         cout << major << " ";
         return *this;
     }
-    
+
     Student& getGender() {
         cout << gender << " ";
         return *this;
     }
-    
+
     Student& getLocation() {
         cout << location << " ";
         return *this;
     }
-    
+
     Student& getPhone() {
         cout << phone;
         return *this;
@@ -119,9 +120,21 @@ int main() {
         string name, id, college, major, gender, location, phone;
         cin >> name >> id >> college >> major >> gender >> location >> phone;
         Student student;
-        student.setName(name).setID(id).setCollege(college).setMajor(major).setGender(gender).setLocation(location).setPhone(phone);
-        
-        student.getName().getID().getCollege().getMajor().getGender().getLocation().getPhone();
+        student.setName(name)
+            .setID(id)
+            .setCollege(college)
+            .setMajor(major)
+            .setGender(gender)
+            .setLocation(location)
+            .setPhone(phone);
+
+        student.getName()
+            .getID()
+            .getCollege()
+            .getMajor()
+            .getGender()
+            .getLocation()
+            .getPhone();
         cout << endl;
     }
     return 0;
@@ -133,7 +146,6 @@ int main() {
 //  Created by Jacky on 2020/9/28.
 //  Copyright © 2020 Jacky. All rights reserved.
 //
-
 
 /*#include <iostream>
 #include <string>
