@@ -65,8 +65,10 @@ protected:
     string name;
     string account;
     float balance = 0.0;
+
 public:
-    BaseAccount(string n, string a, float b) : name(n), account(a), balance(b) {}
+    BaseAccount(string n, string a, float b)
+        : name(n), account(a), balance(b) {}
     virtual void deposit(float money) {
         balance += money;
     }
@@ -88,6 +90,7 @@ class BasePlus : public BaseAccount {
 protected:
     float limit = 5000.0;
     float limit_sum = 0.0;
+
 public:
     BasePlus(string n, string a, float b) : BaseAccount(n, a, b) {}
 
@@ -106,9 +109,8 @@ public:
 
     void display() {
         cout << name << " " << account << " Balance:" << balance
-            << " limit_sum:" << limit_sum << endl;
+             << " limit_sum:" << limit_sum << endl;
     }
-
 };
 
 int main() {
@@ -121,8 +123,7 @@ int main() {
         cin >> name >> account >> balance;
         if (account[1] == 'A') {
             p = new BaseAccount(name, account, balance);
-        }
-        else {
+        } else {
             p = new BasePlus(name, account, balance);
         }
         for (int i = 0; i < 2; i++) {

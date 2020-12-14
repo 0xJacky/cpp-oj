@@ -29,15 +29,15 @@
  */
 
 #define N 100
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
     int t, n;
     double wa[N], avg, ans;
-    
+
     cin >> t;
-    
+
     while (t--) {
         avg = 0;
         ans = 0;
@@ -46,17 +46,15 @@ int main() {
             cin >> wa[i];
             avg += wa[i];
         }
-        
+
         avg /= n;
-        
+
         for (int i = 0; i < n; i++) {
             if (wa[i] > avg) ans++;
         }
-        
+
         cout << ans << endl;
-        
     }
-    
+
     return 0;
 }
-

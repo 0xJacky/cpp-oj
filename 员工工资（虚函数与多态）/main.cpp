@@ -59,28 +59,33 @@ public:
     string name;
     int level;
     int age_limit;
-    Employee(string n, int l, int a): name(n), level(l), age_limit(a) {}
+    Employee(string n, int l, int a) : name(n), level(l), age_limit(a) {}
     virtual void salary() {
-        cout << name << ":Employee,Salary:" << (1000+500*level+50*age_limit) << endl;
+        cout << name
+             << ":Employee,Salary:" << (1000 + 500 * level + 50 * age_limit)
+             << endl;
     }
 };
 
 class Teamleader : public Employee {
 public:
-    Teamleader(string n, int l, int a): Employee(n, l, a) {}
+    Teamleader(string n, int l, int a) : Employee(n, l, a) {}
     void salary() {
-        cout << name << ":Teamleader,Salary:" << (3000+800*level+100*age_limit) << endl;
+        cout << name
+             << ":Teamleader,Salary:" << (3000 + 800 * level + 100 * age_limit)
+             << endl;
     }
 };
 
 class Manager : public Employee {
 public:
-    Manager(string n, int l, int a): Employee(n, l, a) {}
+    Manager(string n, int l, int a) : Employee(n, l, a) {}
     void salary() {
-        cout << name << ":Manager,Salary:" << (5000+1000*(level+age_limit)) << endl;
+        cout << name
+             << ":Manager,Salary:" << (5000 + 1000 * (level + age_limit))
+             << endl;
     }
 };
-
 
 int main() {
     int t, level, age_limit;
@@ -104,7 +109,7 @@ int main() {
             continue;
         }
         p->salary();
-        
+
         delete p;
     }
     return 0;

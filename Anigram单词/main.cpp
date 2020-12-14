@@ -33,10 +33,10 @@
  */
 
 #define N 11
-#include <iostream>
-#include <string>
 #include <algorithm>
+#include <iostream>
 #include <map>
+#include <string>
 using namespace std;
 
 map<string, int> dict;
@@ -59,6 +59,6 @@ int main() {
         sort(w, w + strlen(w));
         cout << m[w] - a << endl;
     }
-    
+
     return 0;
 }

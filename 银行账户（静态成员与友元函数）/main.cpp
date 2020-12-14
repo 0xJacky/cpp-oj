@@ -63,24 +63,25 @@
 #include <string>
 using namespace std;
 
-class Account { // 银行账户类
+class Account {  // 银行账户类
 public:
     Account();
     Account(string accno, string name, float balance);
     ~Account();
-    void Deposit(float amount); // 存款
-    void WithDraw(float amount); // 取款
-    float GetBalance(); // 获取账户余额
-    void Show(); // 显示账户基本信息
-    static int GetCount(); // 获取账户数
+    void Deposit(float amount);   // 存款
+    void WithDraw(float amount);  // 取款
+    float GetBalance();           // 获取账户余额
+    void Show();                  // 显示账户基本信息
+    static int GetCount();        // 获取账户数
     static void SetInterestRate(float rate);
     static float GetTotal();
     friend void Update(Account& a);
+
 private:
-    static int count; // 银行账户数量
-    static float InterestRate, Total; // 利率&所有账户余额
-    string _accno, _accname; // 账户与户名
-    float _balance; // 账户余额
+    static int count;                  // 银行账户数量
+    static float InterestRate, Total;  // 利率&所有账户余额
+    string _accno, _accname;           // 账户与户名
+    float _balance;                    // 账户余额
 };
 int Account::count = 0;
 float Account::InterestRate;
@@ -90,8 +91,8 @@ Account::Account() {
     Account::count++;
 }
 
-Account::Account(string accno, string name, float balance) :
-_accno(accno), _accname(name), _balance(balance) {
+Account::Account(string accno, string name, float balance)
+    : _accno(accno), _accname(name), _balance(balance) {
     Account::Total += _balance;
     Account::count++;
 }
@@ -143,7 +144,7 @@ int main() {
     Account** accounts;
     cin >> ir >> n;
     Account::SetInterestRate(ir);
-    accounts = new Account * [n];
+    accounts = new Account*[n];
     for (int i = 0; i < n; i++) {
         cin >> accno >> accname >> balance >> deposit >> withdraw;
         accounts[i] = new Account(accno, accname, balance);

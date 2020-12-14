@@ -42,8 +42,9 @@ using namespace std;
 class Complex {
 protected:
     int r, v;
+
 public:
-    Complex(int _r = 0, int _v = 0): r(_r), v(_v) {}
+    Complex(int _r = 0, int _v = 0) : r(_r), v(_v) {}
     Complex operator+(Complex& c) {
         Complex ans(r + c.r, v + c.v);
         return ans;
@@ -60,41 +61,39 @@ ostream& operator<<(ostream& cout, Complex& c) {
         cout << "0";
         goto print_end;
     }
-    
+
     if (c.r == 0 && c.v != 0) {
         goto print_v;
     }
-    
+
     cout << c.r;
-    
+
     if (c.v == 0) {
         goto print_end;
     }
-    
+
     if (c.v > 0) {
         cout << "+";
     }
 print_v:
     if (c.v == 1 || c.v == -1) {
         cout << "i";
-    }
-    else {
+    } else {
         cout << c.v << "i";
     }
-    
+
 print_end:
     return cout;
 }
 
-int main()
-{
+int main() {
     int t, r1, v1, r2, v2;
     cin >> t;
     while (t--) {
         cin >> r1 >> v1 >> r2 >> v2;
         Complex c1(r1, v1), c2(r2, v2);
         Complex sum = c1 + c2, remainder = c1 - c2;
-        
+
         cout << "sum:" << sum << endl;
         cout << "remainder:" << remainder << endl;
     }

@@ -187,7 +187,7 @@ private:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
-    
+
 public:
     // 初始化(利用构造函数完成初始化)，参数是等级，等级与其他属性的关系：
     // 生命是等级10倍，攻击是等级3倍，金钱是等级的10倍，经验开始为0。
@@ -218,11 +218,10 @@ protected:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
-    
+
 public:
-    Monster(int _rank,  int _damage, int _hp, int _money, int _exp) :
-    rank(_rank), hp(_hp), damage(_damage),
-    money(_money), exp(_exp) {}
+    Monster(int _rank, int _damage, int _hp, int _money, int _exp)
+        : rank(_rank), hp(_hp), damage(_damage), money(_money), exp(_exp) {}
     void display();
     int getRank();
     int getExp();
@@ -233,33 +232,35 @@ public:
 
 // 普通型怪兽类的界面
 // 普通型怪兽（NMonster）：攻击力是等级2倍，生命是10倍，金钱经验是10倍
-class NMonster: public Monster {
+class NMonster : public Monster {
 public:
-    NMonster(int rank): Monster(rank, 2* rank, 10* rank,  10 * rank, 10 * rank) {}
+    NMonster(int rank)
+        : Monster(rank, 2 * rank, 10 * rank, 10 * rank, 10 * rank) {}
     void attacked(Ultraman& u, Angel& a);
 };
 
 //攻击型怪兽的界面
-class AMonster: public Monster {
+class AMonster : public Monster {
 public:
     //攻击型怪兽（AMonster）：攻击力是等级4倍，生命是5倍，金钱经验是10倍
-    AMonster(int rank): Monster(rank, 4 * rank, 5 * rank,  10 * rank, 10 * rank) {}
+    AMonster(int rank)
+        : Monster(rank, 4 * rank, 5 * rank, 10 * rank, 10 * rank) {}
     void attacked(Ultraman& u, Angel& a);
 };
 
 //防御型怪兽类的界面
-class DMonster: public Monster {
+class DMonster : public Monster {
 public:
     // 防御型怪兽（DMonster）：攻击力是等级1倍，生命是20倍，金钱经验是10倍
-    DMonster(int rank): Monster(rank, rank, 20 * rank, 10 * rank, 10 * rank) {}
+    DMonster(int rank) : Monster(rank, rank, 20 * rank, 10 * rank, 10 * rank) {}
     void attacked(Ultraman& u, Angel& a);
 };
 
 //肉鸡型怪兽类的界面
-class SMonster: public Monster {
+class SMonster : public Monster {
 public:
     // 肉鸡型怪兽（SMonster）：攻击力是等级1倍，生命是10倍，金钱经验是20倍
-    SMonster(int rank): Monster(rank, rank, 10 * rank, 20 * rank, 20 * rank) {}
+    SMonster(int rank) : Monster(rank, rank, 10 * rank, 20 * rank, 20 * rank) {}
     void attacked(Ultraman& u, Angel& a);
 };
 
@@ -268,9 +269,12 @@ class Angel {
 public:
     // 定义一个守护神类（Angel），该类定义怪兽或奥特曼的守护神，为怪兽或奥特曼提供帮助。守护神等级为所守护对象的等级（例如守护神a1守护等级为3的攻击型怪兽am1，则a1的等级也为3），攻击是等级的一半，无生命。怪兽的守护神金钱和经验都为等级的5倍。奥特曼的守护神金钱和经验为0，等级随守护对象升级而升级。
     // 普通型怪兽和肉鸡型怪兽，无守护神。
-    Angel(Ultraman& u) :rank(u.getRank()), exp(0), money(0), damage(rank / 2) {}
-    Angel(AMonster& u) :rank(u.getRank()), exp(5 * rank), money(exp), damage(rank / 2) {}
-    Angel(DMonster& u) :rank(u.getRank()), exp(5 * rank), money(exp), damage(rank / 2) {}
+    Angel(Ultraman& u)
+        : rank(u.getRank()), exp(0), money(0), damage(rank / 2) {}
+    Angel(AMonster& u)
+        : rank(u.getRank()), exp(5 * rank), money(exp), damage(rank / 2) {}
+    Angel(DMonster& u)
+        : rank(u.getRank()), exp(5 * rank), money(exp), damage(rank / 2) {}
     int getMoney() {
         return money;
     }
@@ -280,6 +284,7 @@ public:
     int getDamage() {
         return damage;
     }
+
 private:
     int rank;
     int exp;
@@ -288,12 +293,11 @@ private:
 };
 // 初始化(利用构造函数完成初始化)，参数是等级，等级与其他属性的关系：
 // 生命是等级10倍，攻击是等级3倍，金钱是等级的10倍，经验开始为0。
-Ultraman::Ultraman(int _rank) :
-rank(_rank), hp(10 * rank), damage(3 * rank), money(10 * rank) {
-}
+Ultraman::Ultraman(int _rank)
+    : rank(_rank), hp(10 * rank), damage(3 * rank), money(10 * rank) {}
 void Ultraman::display() {
-    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n",
-           rank, hp, damage, exp, money);
+    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n", rank, hp, damage, exp,
+           money);
 }
 void Ultraman::escape() {
     money = 0;
@@ -406,8 +410,8 @@ int Ultraman::getMoney() {
 
 // -------------------------------------------------------------
 void Monster::display() {
-    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n",
-           rank, hp, damage, exp, money);
+    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n", rank, hp, damage, exp,
+           money);
 }
 
 int Monster::getRank() {
@@ -456,11 +460,10 @@ void SMonster::attacked(Ultraman& u, Angel& a) {
 }
 // -------------------------------------------------------------
 
-int main()
-{
+int main() {
     int t;
-    cin >> t;   //表示有t个测试实例
-    int i = 0, j = 0, k = 0, l = 0;     //判断怪兽是否本回合死亡
+    cin >> t;                        //表示有t个测试实例
+    int i = 0, j = 0, k = 0, l = 0;  //判断怪兽是否本回合死亡
     // 每个实例就是奥特曼与怪兽的1对1战斗
     while (t--) {
         //1. 输入奥特曼和怪兽的等级，并调用初始化方法进行对象初始化
@@ -488,11 +491,12 @@ int main()
         Angel u1(u);
         Angel a1(am);
         Angel d1(dm);
-        
+
         //设置战斗标志flag为true，与每个怪兽的战斗结果winflag1=0,winflag2=0,winflag3=0,winflag4=0。
-        bool flag = true, winflag1 = 0, winflag2 = 0, winflag3 = 0, winflag4 = 0, eflag = 0;
+        bool flag = true, winflag1 = 0, winflag2 = 0, winflag3 = 0,
+             winflag4 = 0, eflag = 0;
         //启动战斗循环，具体如下：
-        while (flag) //4个怪兽群殴奥特曼
+        while (flag)  //4个怪兽群殴奥特曼
         {
             //奥特曼攻击每个怪兽1次
             nm.attacked(u, u1);
@@ -508,8 +512,7 @@ int main()
                 if (u.getHp() > 10) {
                     //奥特曼回血，在方法中判断是否需要加血
                     u.restore();
-                }
-                else {
+                } else {
                     //奥特曼逃跑，设置逃跑标志eflag为true，并输出"lose"并回车
                     u.escape();
                     eflag = true;
@@ -518,9 +521,7 @@ int main()
                     //设置flag为false，停止战斗
                     flag = false;
                 }
-            }
-            else if (i == 0)
-            {
+            } else if (i == 0) {
                 //奥特曼胜利，并输出"win"并回车
                 u.win(nm);
                 //cout << "i" << endl;
@@ -532,7 +533,7 @@ int main()
                 winflag1 = true;
                 i = 1;
             }
-            
+
             //如果肉鸡型怪兽没死，怪兽i攻击奥特曼，注意：只要没死的怪兽，都攻击奥特曼1次。
             if (sm.getHp() > 0) {
                 //怪兽反击1次，或者是奥特曼被攻击1次
@@ -542,8 +543,7 @@ int main()
                 if (u.getHp() > 10) {
                     //奥特曼回血，在方法中判断是否需要加血
                     u.restore();
-                }
-                else {
+                } else {
                     //奥特曼逃跑，设置逃跑标志eflag为true，并输出"lose"并回车
                     u.escape();
                     eflag = true;
@@ -552,21 +552,20 @@ int main()
                     //设置flag为false，停止战斗
                     flag = false;
                 }
-            }
-            else if (j == 0)
-            {
+            } else if (j == 0) {
                 //奥特曼胜利，并输出"win"并回车
                 u.win(sm);
                 //cout << "j" << endl;
                 u.upgrade();
-                u1 = Angel(u);;
+                u1 = Angel(u);
+                ;
                 //输出奥特曼状态，调用display方法
                 u.display();
                 //设置打赢标记winflagi为true
                 winflag2 = true;
                 j = 1;
             }
-            
+
             //如果防御性怪兽没死，怪兽i攻击奥特曼，注意：只要没死的怪兽，都攻击奥特曼1次。
             if (dm.getHp() > 0) {
                 //怪兽反击1次，或者是奥特曼被攻击1次
@@ -576,8 +575,7 @@ int main()
                 if (u.getHp() > 10) {
                     //奥特曼回血，在方法中判断是否需要加血
                     u.restore();
-                }
-                else {
+                } else {
                     //奥特曼逃跑，设置逃跑标志eflag为true，并输出"lose"并回车
                     u.escape();
                     eflag = true;
@@ -586,9 +584,7 @@ int main()
                     //设置flag为false，停止战斗
                     flag = false;
                 }
-            }
-            else if (k == 0)
-            {
+            } else if (k == 0) {
                 //奥特曼胜利，并输出"win"并回车
                 // 当奥特曼战胜怪兽后，将获得怪兽及其守护神的经验金钱。
                 u.win(dm, d1);
@@ -601,7 +597,7 @@ int main()
                 winflag3 = true;
                 k = 1;
             }
-            
+
             //如果攻击型怪兽没死，怪兽i攻击奥特曼，注意：只要没死的怪兽，都攻击奥特曼1次。
             if (am.getHp() > 0) {
                 //怪兽反击1次，或者是奥特曼被攻击1次
@@ -611,8 +607,7 @@ int main()
                 if (u.getHp() > 10) {
                     //奥特曼回血，在方法中判断是否需要加血
                     u.restore();
-                }
-                else {
+                } else {
                     //奥特曼逃跑，设置逃跑标志eflag为true，并输出"lose"并回车
                     u.escape();
                     eflag = true;
@@ -621,9 +616,7 @@ int main()
                     //设置flag为false，停止战斗
                     flag = false;
                 }
-            }
-            else if (l == 0)
-            {
+            } else if (l == 0) {
                 //奥特曼胜利，并输出"win"并回车
                 // 当奥特曼战胜怪兽后，将获得怪兽及其守护神的经验金钱。
                 u.win(am, a1);
@@ -636,7 +629,8 @@ int main()
                 winflag4 = true;
                 l = 1;
             }
-            if (winflag1 && winflag2 && winflag3 && winflag4) {//所有怪兽都死了，用个打赢标记判断
+            if (winflag1 && winflag2 && winflag3 &&
+                winflag4) {  //所有怪兽都死了，用个打赢标记判断
                 //结束战斗，设置flag为false，并输出“win all”
                 flag = false;
                 cout << "win all" << endl;
@@ -645,4 +639,3 @@ int main()
     }
     return 0;
 }
-

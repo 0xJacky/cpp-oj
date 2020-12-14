@@ -38,8 +38,8 @@
  10
  */
 
-#include <iostream>
 #include <cmath>
+#include <iostream>
 using namespace std;
 
 class C2D {
@@ -50,7 +50,6 @@ public:
     void getDistance() {
         cout << sqrt(x * x + y * y) << endl;
     }
-    
 };
 
 class C3D : public C2D {

@@ -71,18 +71,18 @@ unsigned long min(unsigned long a, unsigned long b) {
     return a < b ? a : b;
 }
 
-int judge(Paper * a, Paper * b)  {
-    
+int judge(Paper* a, Paper* b) {
     for (int k = 0; k < A; k++) {
-        unsigned long int ans1_len = a->ans[k].length(), ans2_len = b->ans[k].length(), same = 0, shortlen;
+        unsigned long int ans1_len = a->ans[k].length(),
+                          ans2_len = b->ans[k].length(), same = 0, shortlen;
         shortlen = min(ans1_len, ans2_len);
-        
+
         for (int d = 0; d < shortlen; d++) {
             if (a->ans[k][d] == b->ans[k][d]) same++;
         }
-        
+
         if (same >= ans1_len * 0.9 || same >= ans2_len * 0.9) {
-            return k+1;
+            return k + 1;
         }
     }
     return 0;
@@ -93,23 +93,21 @@ int main() {
     cin >> t;
     for (int i = 0; i < t; i++) {
         cin >> (paper + i)->id;
-        for(int j = 0; j < A; j++) {
+        for (int j = 0; j < A; j++) {
             cin >> (paper + i)->ans[j];
         }
     }
-    
+
     for (int i = 0; i < t; i++) {
-        
-        for(int j = 0; j < t; j++) {
+        for (int j = 0; j < t; j++) {
             if ((paper + i)->id >= (paper + j)->id) continue;
             int ans_id = judge(paper + i, paper + j);
             if (ans_id) {
-                    cout << (paper + i)->id << " " << (paper + j)->id << " " << ans_id << endl;
+                cout << (paper + i)->id << " " << (paper + j)->id << " "
+                     << ans_id << endl;
             }
-                        
         }
-    
     }
-    
+
     return 0;
 }

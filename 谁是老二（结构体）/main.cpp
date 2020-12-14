@@ -37,8 +37,8 @@
  */
 
 #define N 1000
-#include <iostream>
 #include <climits>
+#include <iostream>
 using namespace std;
 
 struct Birdthday {
@@ -46,7 +46,7 @@ struct Birdthday {
     int m;
     int d;
     int sum;
-} f = {INT_MAX/1000, 0, 0, INT_MAX}, s, tmp;
+} f = {INT_MAX / 1000, 0, 0, INT_MAX}, s, tmp;
 
 int dateToInt(struct Birdthday m) {
     int n = 0;
@@ -66,19 +66,18 @@ int in(Birdthday a, Birdthday b, Birdthday c) {
 int main() {
     int t;
     cin >> t;
-    
+
     for (int i = 0; i < t; i++) {
         cin >> tmp.y >> tmp.m >> tmp.d;
         tmp.sum = dateToInt(tmp);
         if (tmp.sum < f.sum) {
             s = f;
             f = tmp;
-        }
-        else if (in(f, tmp, s)) {
+        } else if (in(f, tmp, s)) {
             s = tmp;
         }
     }
-    
+
     cout << s.y << "-" << s.m << "-" << s.d << endl;
 
     return 0;

@@ -59,13 +59,14 @@
 #include <iostream>
 using namespace std;
 
-static const char* trans_type[] = { "TV", "DVD" };
+static const char* trans_type[] = {"TV", "DVD"};
 
 class TV {
 public:
     friend void change(TV& tv, int _k, int _x, int _changeVolume);
     friend void print_statistics();
-    TV(): no(++TV_NUM), k(1), x(no), v(50) {}
+    TV() : no(++TV_NUM), k(1), x(no), v(50) {}
+
 private:
     int no;
     int k;
@@ -89,31 +90,31 @@ void change(TV& tv, int _k, int _x, int _changeVolume) {
             TV::DVD_NUM--;
         }
     }
-    
+
     tv.k = _k;
     tv.x = _x;
     tv.v += _changeVolume;
     if (tv.v > 100) tv.v = 100;
     if (tv.v < 0) tv.v = 0;
-    
-    cout << "第" << tv.no << "号电视机--" << trans_type[tv.k - 1] <<
-    "模式--频道" << tv.x << "--音量" << tv.v << endl;
+
+    cout << "第" << tv.no << "号电视机--" << trans_type[tv.k - 1]
+         << "模式--频道" << tv.x << "--音量" << tv.v << endl;
 }
 
 void print_statistics() {
     cout << "播放电视的电视机数量为" << TV::TV_NUM << endl;
-    cout << "播放DVD的电视机数量为" << TV::DVD_NUM <<endl;
+    cout << "播放DVD的电视机数量为" << TV::DVD_NUM << endl;
 }
 
 int main() {
     int n, t, no, k, x, v;
     cin >> n >> t;
-    TV * tv = new TV[n];
+    TV* tv = new TV[n];
     while (t--) {
         cin >> no >> k >> x >> v;
         change(tv[no - 1], k, x, v);
     }
     print_statistics();
-    
+
     return 0;
 }

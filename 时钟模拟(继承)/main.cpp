@@ -49,6 +49,7 @@ using namespace std;
 class Counter {
 protected:
     int value;
+
 public:
     Counter(int v) : value(v) {}
     void increment() {
@@ -63,14 +64,14 @@ class CircleCounter : public Counter {
 private:
     int min_value;
     int max_value;
+
 public:
-    CircleCounter(int min, int v, int max) :
-        Counter(v), min_value(min), max_value(max) {}
+    CircleCounter(int min, int v, int max)
+        : Counter(v), min_value(min), max_value(max) {}
     void increment() {
         if (value == max_value) {
             value = min_value;
-        }
-        else {
+        } else {
             value++;
         }
     }
@@ -81,8 +82,10 @@ private:
     CircleCounter hour;
     CircleCounter minute;
     CircleCounter second;
+
 public:
-    Timer(int h, int m, int s) : hour(0, h, 23), minute(0, m, 59), second(0, s, 59) {}
+    Timer(int h, int m, int s)
+        : hour(0, h, 23), minute(0, m, 59), second(0, s, 59) {}
     void time(int s) {
         auto _s = s % 60;
         auto m = (s / 60) % 60;
@@ -104,7 +107,8 @@ public:
         }
     }
     void display() {
-        cout << hour.getValue() << ":" << minute.getValue() << ":" << second.getValue() << endl;
+        cout << hour.getValue() << ":" << minute.getValue() << ":"
+             << second.getValue() << endl;
     }
 };
 
@@ -119,4 +123,3 @@ int main() {
     }
     return 0;
 }
-

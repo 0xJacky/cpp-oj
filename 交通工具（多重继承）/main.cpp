@@ -102,8 +102,8 @@ public:
 class CMotocycle : public CBicyle, public CMotocar {
 public:
     CMotocycle();
-    CMotocycle(int ms, int s, int w, int h, int sn) :
-        CBicyle(ms, s, w, h), CMotocar(ms, s, w, sn) {}
+    CMotocycle(int ms, int s, int w, int h, int sn)
+        : CBicyle(ms, s, w, h), CMotocar(ms, s, w, sn) {}
 
     void display() {
         cout << "Motocycle:" << endl;

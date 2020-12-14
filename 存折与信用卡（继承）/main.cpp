@@ -72,8 +72,8 @@
  */
 
 #define _CRT_SECURE_NO_WARNINGS
-#include <iostream>
 #include <cstring>
+#include <iostream>
 using namespace std;
 
 class CAcount {
@@ -81,6 +81,7 @@ protected:
     long account;
     char name[10];
     float balance;
+
 public:
     CAcount(long a, char* n, float b) : account(a), balance(b) {
         strcpy(name, n);
@@ -106,6 +107,7 @@ public:
 class CCreditCard : public CAcount {
 private:
     float limit;
+
 public:
     CCreditCard(long a, char* n, float b, float limit)
         : CAcount(a, n, b), limit(limit) {}

@@ -62,6 +62,7 @@ using namespace std;
 class Object {
 private:
     int id;
+
 public:
     static int n;
     Object(int max) {

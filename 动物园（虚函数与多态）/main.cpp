@@ -48,7 +48,6 @@
 #include <string>
 using namespace std;
 
-
 class Animal {
 public:
     string name;
@@ -61,7 +60,7 @@ class Tiger : public Animal {
 public:
     Tiger(string n, int a) : Animal(n, a) {}
     void speak() {
-        cout << "Hello,I am " << name <<",AOOO." << endl;
+        cout << "Hello,I am " << name << ",AOOO." << endl;
     }
 };
 
@@ -69,7 +68,7 @@ class Pig : public Animal {
 public:
     Pig(string n, int a) : Animal(n, a) {}
     void speak() {
-        cout << "Hello,I am " << name <<",HENGHENG." << endl;
+        cout << "Hello,I am " << name << ",HENGHENG." << endl;
     }
 };
 
@@ -77,7 +76,7 @@ class Dog : public Animal {
 public:
     Dog(string n, int a) : Animal(n, a) {}
     void speak() {
-        cout << "Hello,I am " << name <<",WangWang." << endl;
+        cout << "Hello,I am " << name << ",WangWang." << endl;
     }
 };
 
@@ -85,7 +84,7 @@ class Duck : public Animal {
 public:
     Duck(string n, int a) : Animal(n, a) {}
     void speak() {
-        cout << "Hello,I am " << name <<",GAGA." << endl;
+        cout << "Hello,I am " << name << ",GAGA." << endl;
     }
 };
 
@@ -105,7 +104,7 @@ int main() {
         } else if (type == string("Duck")) {
             p = new Duck(name, age);
         } else {
-            cout << "There is no " << type <<" in our Zoo." << endl;
+            cout << "There is no " << type << " in our Zoo." << endl;
             continue;
         }
         p->speak();

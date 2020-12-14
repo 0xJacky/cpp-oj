@@ -46,8 +46,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #define N 100
 #define PERFIX 2015000
-#include <iostream>
 #include <cstring>
+#include <iostream>
 using namespace std;
 
 class Hotel {
@@ -56,14 +56,14 @@ public:
     Hotel(char* a_Customer);
     //m_TotalCustNum++和m_CustomerNum按照m_TotalCustNum来生成
     static void setRent(float _rent);
-    ~Hotel(); // 记得 delete m_CustomerName
-    void Display(); // 相应输出顾客姓名、顾客编号、总人数、总收入
+    ~Hotel();  // 记得 delete m_CustomerName
+    void Display();  // 相应输出顾客姓名、顾客编号、总人数、总收入
 private:
-    static int m_TotalCustNum; //顾客总人数
-    static float m_TotalEearning; //旅店总收入
-    static float m_Rent; // 每个顾客的房租
-    char* m_CustomerName; // 顾客姓名
-    int m_CustomerID; // 顾客编号
+    static int m_TotalCustNum;     //顾客总人数
+    static float m_TotalEearning;  //旅店总收入
+    static float m_Rent;           // 每个顾客的房租
+    char* m_CustomerName;          // 顾客姓名
+    int m_CustomerID;              // 顾客编号
 };
 
 int Hotel::m_TotalCustNum = 0;
@@ -83,7 +83,7 @@ void Hotel::setRent(float _rent) {
 
 void Hotel::Display() {
     cout << m_CustomerName << " " << m_CustomerID << " "
-    << Hotel::m_TotalCustNum << " " << Hotel::m_TotalEearning << endl;
+         << Hotel::m_TotalCustNum << " " << Hotel::m_TotalEearning << endl;
 }
 
 Hotel::~Hotel() {
@@ -91,11 +91,11 @@ Hotel::~Hotel() {
 }
 
 int main() {
-    char name[100] = { 'A' };
+    char name[100] = {'A'};
     float rent;
     cin >> rent;
     Hotel::setRent(rent);
-    
+
     while (true) {
         cin >> name;
         if (strcmp(name, "0") == 0) {
@@ -104,6 +104,6 @@ int main() {
         Hotel hotel(name);
         hotel.Display();
     }
-    
+
     return 0;
 }

@@ -60,7 +60,7 @@ private:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
-    
+
 public:
     Ultraman(int _rank);
     void display();
@@ -82,10 +82,10 @@ private:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
-    
+
 public:
     Monster(int _rank);
-    
+
     void display();
     void attacked(Ultraman& u);
     void restore();

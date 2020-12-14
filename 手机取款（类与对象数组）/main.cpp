@@ -45,18 +45,20 @@
  */
 
 #include <iostream>
-#include <string>
 #include <map>
+#include <string>
 using namespace std;
 map<unsigned int, unsigned int> m;
 
 class Card {
 protected:
     unsigned int cid, phone, pwd, balance;
+
 public:
-    Card(unsigned int _cid, unsigned int _phone, unsigned int _pwd, unsigned int _balance):
-    cid(_cid), phone(_phone), pwd(_pwd), balance(_balance) {}
-    
+    Card(unsigned int _cid, unsigned int _phone, unsigned int _pwd,
+         unsigned int _balance)
+        : cid(_cid), phone(_phone), pwd(_pwd), balance(_balance) {}
+
     int checkPwd(unsigned int pwd) {
         if (this->pwd != pwd) {
             cout << "密码错误" << endl;
@@ -64,11 +66,11 @@ public:
         }
         return 1;
     }
-    
+
     unsigned int getPhone() {
         return phone;
     }
-    
+
     void withdrawal(unsigned int money) {
         cout << "卡号" << cid << "--余额";
         if (money > balance) {
@@ -93,7 +95,7 @@ int main() {
     int t, n;
     unsigned int cid, phone, pwd, balance, money;
     cin >> t;
-    database = new Card * [t+1];
+    database = new Card*[t + 1];
     for (int i = 1; i <= t; i++) {
         cin >> cid >> phone >> pwd >> balance;
         m[phone] = i;
@@ -103,13 +105,12 @@ int main() {
     while (n--) {
         cin >> phone >> pwd >> money;
         auto i = checkPhone(phone);
-        
+
         if (i && database[i]->checkPwd(pwd)) {
             database[i]->withdrawal(money);
         }
-        
     }
     delete[] database;
-    
+
     return 0;
 }

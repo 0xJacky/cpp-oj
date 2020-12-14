@@ -42,19 +42,18 @@ void _f(int *x, int *y) {
     }
 }
 
-int main()
-{
+int main() {
     int n, f, s, t;
-    int * x = &f, * y = &s, * z = &t;
+    int *x = &f, *y = &s, *z = &t;
     cin >> n;
-    
+
     while (n--) {
         cin >> f >> s >> t;
-        
+
         _f(x, y);
         _f(x, z);
         _f(y, z);
-        
+
         cout << *x << " " << *y << " " << *z << " " << endl;
     }
     return 0;

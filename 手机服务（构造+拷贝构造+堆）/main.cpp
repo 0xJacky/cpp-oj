@@ -52,42 +52,21 @@
  */
 
 #include <iostream>
-#include <string>
 #include <map>
+#include <string>
 using namespace std;
 
-map <char, string> trans_type = {
-    {
-        'A', "机构"
-    },
-    {
-        'B', "企业"
-    },
-    {
-        'C', "个人"
-    },
-    {
-        'D', "备份"
-    }
-};
+map<char, string> trans_type = {
+    {'A', "机构"}, {'B', "企业"}, {'C', "个人"}, {'D', "备份"}};
 
-map <int, string> trans_status = {
-    {
-        1, "在用"
-    },
-    {
-        2, "未用"
-    },
-    {
-        3, "停用"
-    }
-};
+map<int, string> trans_status = {{1, "在用"}, {2, "未用"}, {3, "停用"}};
 
 class Date {
 private:
     int y;
     int m;
     int d;
+
 public:
     Date(int _y, int _m, int _d) : y(_y), m(_m), d(_d) {}
     void print() {
@@ -101,15 +80,15 @@ private:
     string number;
     int status;
     Date *exp;
+
 public:
-    Phone(char t, string n, int s, const Date *_exp) :
-    type(t), number(n), status(s) {
+    Phone(char t, string n, int s, const Date *_exp)
+        : type(t), number(n), status(s) {
         exp = new Date(*_exp);
         cout << "Construct a new phone " << number << endl;
         print();
     }
-    Phone(const Phone& p) :
-    type('D'), number(p.number), status(p.status) {
+    Phone(const Phone &p) : type('D'), number(p.number), status(p.status) {
         exp = new Date(*p.exp);
         cout << "Construct a copy of phone " << number << endl;
         number += "X";
@@ -127,7 +106,8 @@ public:
     }
     void print() {
         cout << "类型=" << trans_type[type] << "||号码=" << number;
-        cout << "||" << "State=" << trans_status[status];
+        cout << "||"
+             << "State=" << trans_status[status];
         // 停机
         if (status == 3) {
             cout << "||停机日期=";
@@ -135,9 +115,7 @@ public:
         }
         cout << endl;
     }
-    
 };
-
 
 int main() {
     int t;
@@ -154,4 +132,3 @@ int main() {
     }
     return 0;
 }
-

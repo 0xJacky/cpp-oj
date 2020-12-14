@@ -268,11 +268,11 @@ protected:
     int rank = 1;
     int exp = 0;
     int hp, damage, money;
-    
+
 public:
     Player();
     Player(int _rank, int _exp, int _hp, int _damage, int _money)
-    : rank(_rank), exp(_exp), hp(_hp), damage(_damage), money(_money) {}
+        : rank(_rank), exp(_exp), hp(_hp), damage(_damage), money(_money) {}
     int getRank();
     int getExp();
     int getHp();
@@ -300,9 +300,10 @@ public:
 // 怪兽（Monster）
 class Monster : public Player {
 public:
-    Monster(int rank) : Player(rank, 10 * rank, 20 * rank, 2 * rank, 10 * rank) {}
+    Monster(int rank)
+        : Player(rank, 10 * rank, 20 * rank, 2 * rank, 10 * rank) {}
     Monster(int _rank, int _damage, int _hp, int _money, int _exp)
-    :Player(_rank, _exp, _hp, _damage, _money) {}
+        : Player(_rank, _exp, _hp, _damage, _money) {}
     void attacked(Ultraman& u);
     void display();
 };
@@ -315,7 +316,7 @@ public:
         Boss::attacked_num++;
         Monster::attacked(u);
     }
-    void XP(Ultraman & u) {
+    void XP(Ultraman& u) {
         Boss::attacked_num = 0;
         for (int i = 0; i < 3; i++) {
             u.attacked(*this);
@@ -346,10 +347,11 @@ int Player::getMoney() {
 
 // 初始化(利用构造函数完成初始化)，参数是等级，等级与其他属性的关系：
 // 生命是等级10倍，攻击是等级3倍，金钱是等级的10倍，经验开始为0。
-Ultraman::Ultraman(int rank) : Player(rank, 0, 10 * rank, 3 * rank, 10 * rank) {}
+Ultraman::Ultraman(int rank)
+    : Player(rank, 0, 10 * rank, 3 * rank, 10 * rank) {}
 void Ultraman::display() {
-    printf("奥特曼状态(rank=%d hp=%d damage=%d exp=%d money=%d)\n",
-           rank, hp, damage, exp, money);
+    printf("奥特曼状态(rank=%d hp=%d damage=%d exp=%d money=%d)\n", rank, hp,
+           damage, exp, money);
 }
 void Ultraman::escape() {
     money = 0;
@@ -395,8 +397,8 @@ void Ultraman::win(Monster& m, bool print = true) {
 
 // -------------------------------------------------------------
 void Monster::display() {
-    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n",
-           rank, hp, damage, exp, money);
+    printf("rank=%d hp=%d damage=%d exp=%d money=%d\n", rank, hp, damage, exp,
+           money);
 }
 
 void Monster::attacked(Ultraman& u) {
@@ -416,14 +418,15 @@ int main() {
         u.display();
         //输入怪兽个数和等级
         cin >> m_num >> m_rank;
-        
-        while (!u.is_escape && u.getHp() > 0 && m_num--)//只要奥特曼没死也没逃跑，就继续与n个怪兽的战斗
+
+        while (!u.is_escape && u.getHp() > 0 &&
+               m_num--)  //只要奥特曼没死也没逃跑，就继续与n个怪兽的战斗
         {
             //利用怪兽等级值生成怪兽对象
             Monster m(m_rank);
             //设置战斗标志flag为true，启动战斗循环，具体如下：
             bool flag = true;
-            while (flag) //当战斗未结束就继续
+            while (flag)  //当战斗未结束就继续
             {
                 //奥特曼攻击1次
                 m.attacked(u);
@@ -431,12 +434,10 @@ int main() {
                 {
                     //怪兽反击1次
                     u.attacked(m);
-                    if (u.getHp() >= 10) {      //奥特曼没死也不逃跑
+                    if (u.getHp() >= 10) {  //奥特曼没死也不逃跑
                         //奥特曼回血，在方法中判断是否需要加血
                         u.restore();
-                    }
-                    else
-                    {
+                    } else {
                         //奥特曼逃跑，并输出"lose"并回车
                         u.escape();
                         //输出奥特曼状态，调用display方法
@@ -444,9 +445,7 @@ int main() {
                         //设置flag为false，停止战斗
                         flag = false;
                     }
-                }
-                else
-                {
+                } else {
                     //怪兽死了
                     //奥特曼胜利，并输出"win"并回车
                     u.win(m);
@@ -456,8 +455,9 @@ int main() {
                 }
             }
         }
-        
-        if (!u.is_escape && u.getHp() > 0)//如果打完n个小怪兽奥特曼还没死也没逃跑，就挑战Boss
+
+        if (!u.is_escape &&
+            u.getHp() > 0)  //如果打完n个小怪兽奥特曼还没死也没逃跑，就挑战Boss
         {
             //输出奥特曼当前状态
             u.display();
@@ -466,7 +466,7 @@ int main() {
             //设置战斗标志flag为true，启动战斗循环，具体如下：
             bool flag = true;
             Boss::attacked_num = 0;
-            while (flag) //当战斗未结束就继续
+            while (flag)  //当战斗未结束就继续
             {
                 //奥特曼攻击1次
                 b.attacked(u);
@@ -474,19 +474,16 @@ int main() {
                 {
                     if (Boss::attacked_num == 5) {
                         b.XP(u);
-                    }
-                    else {
+                    } else {
                         //Boss反击1次
                         u.attacked(b);
                     }
-                    
-                    if ( u.getHp() >= 10) {
+
+                    if (u.getHp() >= 10) {
                         //奥特曼没死也不逃跑
                         //奥特曼回血，在方法中判断是否需要加血
                         u.restore();
-                    }
-                    else
-                    {
+                    } else {
                         //奥特曼逃跑，并输出"lose"并回车
                         u.escape();
                         //输出奥特曼状态，调用display方法
@@ -494,9 +491,7 @@ int main() {
                         //设置flag为false，停止战斗
                         flag = false;
                     }
-                }
-                else
-                {
+                } else {
                     //奥特曼胜利，并输出"win Boss"并回车
                     cout << "win Boss" << endl;
                     u.win(b, false);

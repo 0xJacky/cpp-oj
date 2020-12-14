@@ -19,8 +19,8 @@
  输出p1到p2的距离
  在C++中，输出指定精度的参考代码如下：
  
- #include <iostream>
  #include <iomanip> //必须包含这个头文件
+ #include <iostream>
  using namespace std;
  void main( )
  { double a =3.141596;
@@ -38,17 +38,18 @@
  提示
  */
 
-#include <iostream>
-#include<cmath>
+#include <cmath>
 #include <iomanip>
+#include <iostream>
 using namespace std;
 
 class Point {
     double x, y;
+
 public:
     Point();
-    Point(double x_value,double y_value);
-    
+    Point(double x_value, double y_value);
+
     double getX();
     double getY();
     void setX(double x_value);
@@ -64,7 +65,6 @@ Point::Point() {
 Point::Point(double x_value, double y_value) {
     this->setX(x_value);
     this->setY(y_value);
-    
 }
 
 double Point::getX() {
@@ -84,11 +84,11 @@ void Point::setY(double y_value) {
 }
 
 double Point::distanceToAnotherPoint(Point p) {
-    return sqrt((this->getX() - p.x) * (this->getX() - p.x) + (this->getY() - p.y) * (this->getY() - p.y));
+    return sqrt((this->getX() - p.x) * (this->getX() - p.x) +
+                (this->getY() - p.y) * (this->getY() - p.y));
 }
 
-int main()
-{
+int main() {
     int t;
     double x1, y1, x2, y2, ans;
     cin >> t;
@@ -96,7 +96,9 @@ int main()
         cin >> x1 >> y1 >> x2 >> y2;
         Point p1(x1, y1), p2(x2, y2);
         ans = p1.distanceToAnotherPoint(p2);
-        cout << fixed << setprecision(2) << "Distance of Point(" << x1 << "," << y1 << ") to Point(" << x2 << "," << y2 << ") is " << ans << endl;
+        cout << fixed << setprecision(2) << "Distance of Point(" << x1 << ","
+             << y1 << ") to Point(" << x2 << "," << y2 << ") is " << ans
+             << endl;
     }
     return 0;
 }

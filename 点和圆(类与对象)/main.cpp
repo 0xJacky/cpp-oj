@@ -43,8 +43,8 @@
  
  在C++中，输出指定精度的参考代码如下：
  
- #include <iostream>
  #include <iomanip> //必须包含这个头文件
+ #include <iostream>
  using namespace std;
  void main( )
  { double a =3.14;
@@ -64,15 +64,16 @@
  */
 
 #define PI 3.14
-#include <iostream>
 #include <cmath>
 #include <iomanip>
+#include <iostream>
 using namespace std;
 
 class Point {
 protected:
     int x;
     int y;
+
 public:
     Point& SetPoint(int x, int y);
     int GetX();
@@ -98,6 +99,7 @@ protected:
     int x;
     int y;
     int r;
+
 public:
     Circle& SetCenter(int x, int y);
     Circle& SetRadius(int r);
@@ -126,12 +128,12 @@ double Circle::getLength() {
 }
 
 int Circle::Contain(Point p) {
-    double dis = sqrt((x-p.GetX())*(x-p.GetX())+(y-p.GetY()) * (y-p.GetY()));
+    double dis =
+        sqrt((x - p.GetX()) * (x - p.GetX()) + (y - p.GetY()) * (y - p.GetY()));
     return !(dis > r);
 }
 
-int main()
-{
+int main() {
     int cx, cy, cr, px, py;
     cin >> cx >> cy >> cr >> px >> py;
     Circle circle;
@@ -142,8 +144,7 @@ int main()
     cout << fixed << setprecision(2) << circle.getLength() << endl;
     if (circle.Contain(point)) {
         cout << "yes" << endl;
-    }
-    else {
+    } else {
         cout << "no" << endl;
     }
     return 0;
