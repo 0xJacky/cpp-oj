@@ -75,6 +75,11 @@
 			<key>orderHint</key>
 			<integer>17</integer>
 		</dict>
+		<key>三维坐标点的平移（运算符重载）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
 		<key>三维空间的点（继承）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -88,6 +93,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>37</integer>
+		</dict>
+		<key>人民币输出（输出运算符重载）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>61</integer>
 		</dict>
 		<key>函数调用（函数指针）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -124,6 +134,11 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
+		<key>向量的加减（运算符&lt;&lt;重载）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>63</integer>
+		</dict>
 		<key>员工工资（虚函数与多态）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -148,7 +163,7 @@
 		<key>复数的加减乘运算（运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>62</integer>
 		</dict>
 		<key>复数运算（友元函数）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -212,6 +227,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>53</integer>
+		</dict>
+		<key>学生生日差值计算（运算符重载）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>64</integer>
 		</dict>
 		<key>学生类定义（类和对象）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -303,6 +323,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>12</integer>
+		</dict>
+		<key>时钟调整（运算符前后增量）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>65</integer>
 		</dict>
 		<key>月份查询（指针数组）.xcscheme_^#shared#^_</key>
 		<dict>
