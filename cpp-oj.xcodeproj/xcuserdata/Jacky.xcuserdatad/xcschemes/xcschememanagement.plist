@@ -77,8 +77,10 @@
 		</dict>
 		<key>三维坐标点的平移（运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>62</integer>
 		</dict>
 		<key>三维空间的点（继承）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -96,8 +98,24 @@
 		</dict>
 		<key>人民币输出（输出运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>61</integer>
+			<integer>63</integer>
+		</dict>
+		<key>倚天屠龙记（函数模板）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
+		<key>元素查找（函数模板）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>66</integer>
 		</dict>
 		<key>函数调用（函数指针）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -109,7 +127,7 @@
 		<key>分数的加减乘除（运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>23</integer>
 		</dict>
@@ -134,10 +152,22 @@
 			<key>orderHint</key>
 			<integer>16</integer>
 		</dict>
-		<key>向量的加减（运算符&lt;&lt;重载）.xcscheme_^#shared#^_</key>
+		<key>向量1（类和对象）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>70</integer>
+		</dict>
+		<key>向量5（友元类）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
+		<key>向量的加减（运算符&lt;&lt;重载）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>60</integer>
 		</dict>
 		<key>员工工资（虚函数与多态）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -149,7 +179,7 @@
 		<key>四进制加法（运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>34</integer>
 		</dict>
@@ -162,8 +192,10 @@
 		</dict>
 		<key>复数的加减乘运算（运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>62</integer>
+			<integer>61</integer>
 		</dict>
 		<key>复数运算（友元函数）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -210,7 +242,7 @@
 		<key>奥特曼打怪兽之运算符重载（系列6）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>31</integer>
 		</dict>
@@ -230,6 +262,8 @@
 		</dict>
 		<key>学生生日差值计算（运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>64</integer>
 		</dict>
@@ -303,6 +337,13 @@
 			<key>orderHint</key>
 			<integer>54</integer>
 		</dict>
+		<key>数据排序（函数模板）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>67</integer>
+		</dict>
 		<key>新旧身份证(继承).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -326,8 +367,10 @@
 		</dict>
 		<key>时钟调整（运算符前后增量）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>59</integer>
 		</dict>
 		<key>月份查询（指针数组）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -335,6 +378,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>36</integer>
+		</dict>
+		<key>有界数组模板类（类模板）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>69</integer>
 		</dict>
 		<key>机器人变身（类与对象）【期中模拟】.xcscheme_^#shared#^_</key>
 		<dict>
@@ -381,9 +429,19 @@
 		<key>矩阵相加修改版（运算符重载）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 			<key>orderHint</key>
 			<integer>50</integer>
+		</dict>
+		<key>矩阵类模板（类模板）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>72</integer>
+		</dict>
+		<key>简单类模板(类模板).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>71</integer>
 		</dict>
 		<key>虚拟电话（构造与析构）【期中模拟】.xcscheme_^#shared#^_</key>
 		<dict>
@@ -419,6 +477,13 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>谁的票数最高（函数模板）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>65</integer>
 		</dict>
 		<key>货币兑换（指针与常量）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -538,6 +603,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8555AB7425887AE900CCD792</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>85602D9D2509226800FBFE62</key>
 		<dict>
 			<key>primary</key>
@@ -618,6 +688,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8596B3FC257E87C500CB1027</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8596B441257E8A9600CB1027</key>
 		<dict>
 			<key>primary</key>
@@ -629,6 +704,46 @@
 			<true/>
 		</dict>
 		<key>8596B4CE257F6FB900CB1027</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>859B18F02587ADAD0003AAB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>859B19392587B74F0003AAB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>859B19832587BE2E0003AAB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>859B19CE2587C4780003AAB5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85A59F982591B413002127CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85A59FE52591BD41002127CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85A5A0332591C03B002127CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85A5A0822591C74E002127CD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

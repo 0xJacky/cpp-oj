@@ -116,5 +116,163 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7916E7C8-C623-4CAA-975C-565B78F6D74A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x8c01;&#x7684;&#x7968;&#x6570;&#x6700;&#x9ad8;&#xff08;&#x51fd;&#x6570;&#x6a21;&#x677f;&#xff09;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "test(t, length)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "7916E7C8-C623-4CAA-975C-565B78F6D74A - 5d9fec6a44a72d56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void test&lt;int&gt;(int, int)"
+                  moduleName = "&#x8c01;&#x7684;&#x7968;&#x6570;&#x6700;&#x9ad8;&#xff08;&#x51fd;&#x6570;&#x6a21;&#x677f;&#xff09;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jacky/Documents/Projects/cpp-oj/%E8%B0%81%E7%9A%84%E7%A5%A8%E6%95%B0%E6%9C%80%E9%AB%98%EF%BC%88%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%EF%BC%89/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "149">
+               </Location>
+               <Location
+                  uuid = "7916E7C8-C623-4CAA-975C-565B78F6D74A - 60bba4eb3ddf1be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void test&lt;char&gt;(char, int)"
+                  moduleName = "&#x8c01;&#x7684;&#x7968;&#x6570;&#x6700;&#x9ad8;&#xff08;&#x51fd;&#x6570;&#x6a21;&#x677f;&#xff09;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jacky/Documents/Projects/cpp-oj/%E8%B0%81%E7%9A%84%E7%A5%A8%E6%95%B0%E6%9C%80%E9%AB%98%EF%BC%88%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%EF%BC%89/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "150">
+               </Location>
+               <Location
+                  uuid = "7916E7C8-C623-4CAA-975C-565B78F6D74A - 1bb4f577d036cb19"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "void test&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;, int)"
+                  moduleName = "&#x8c01;&#x7684;&#x7968;&#x6570;&#x6700;&#x9ad8;&#xff08;&#x51fd;&#x6570;&#x6a21;&#x677f;&#xff09;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jacky/Documents/Projects/cpp-oj/%E8%B0%81%E7%9A%84%E7%A5%A8%E6%95%B0%E6%9C%80%E9%AB%98%EF%BC%88%E5%87%BD%E6%95%B0%E6%A8%A1%E6%9D%BF%EF%BC%89/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "198">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F147B086-076E-4477-B211-D03C378765DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x77e9;&#x9635;&#x7c7b;&#x6a21;&#x677f;&#xff08;&#x7c7b;&#x6a21;&#x677f;&#xff09;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "print()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9F80C79-5D47-4925-8C94-D2FDBD44FBB4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x77e9;&#x9635;&#x7c7b;&#x6a21;&#x677f;&#xff08;&#x7c7b;&#x6a21;&#x677f;&#xff09;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "main()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA38C0BA-81C7-4ECE-AD44-22CA04A0BE18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6709;&#x754c;&#x6570;&#x7ec4;&#x6a21;&#x677f;&#x7c7b;&#xff08;&#x7c7b;&#x6a21;&#x677f;&#xff09;/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "find(target)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA38C0BA-81C7-4ECE-AD44-22CA04A0BE18 - a9df67aee326a1c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BoundArray&lt;int&gt;::find(int)"
+                  moduleName = "&#x6709;&#x754c;&#x6570;&#x7ec4;&#x6a21;&#x677f;&#x7c7b;&#xff08;&#x7c7b;&#x6a21;&#x677f;&#xff09;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jacky/Documents/Projects/cpp-oj/%E6%9C%89%E7%95%8C%E6%95%B0%E7%BB%84%E6%A8%A1%E6%9D%BF%E7%B1%BB%EF%BC%88%E7%B1%BB%E6%A8%A1%E6%9D%BF%EF%BC%89/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  uuid = "AA38C0BA-81C7-4ECE-AD44-22CA04A0BE18 - cfd8c494e7aaa595"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BoundArray&lt;double&gt;::find(double)"
+                  moduleName = "&#x6709;&#x754c;&#x6570;&#x7ec4;&#x6a21;&#x677f;&#x7c7b;&#xff08;&#x7c7b;&#x6a21;&#x677f;&#xff09;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jacky/Documents/Projects/cpp-oj/%E6%9C%89%E7%95%8C%E6%95%B0%E7%BB%84%E6%A8%A1%E6%9D%BF%E7%B1%BB%EF%BC%88%E7%B1%BB%E6%A8%A1%E6%9D%BF%EF%BC%89/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "AA38C0BA-81C7-4ECE-AD44-22CA04A0BE18 - 52f766bcc4637860"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BoundArray&lt;char&gt;::find(char)"
+                  moduleName = "&#x6709;&#x754c;&#x6570;&#x7ec4;&#x6a21;&#x677f;&#x7c7b;&#xff08;&#x7c7b;&#x6a21;&#x677f;&#xff09;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Jacky/Documents/Projects/cpp-oj/%E6%9C%89%E7%95%8C%E6%95%B0%E7%BB%84%E6%A8%A1%E6%9D%BF%E7%B1%BB%EF%BC%88%E7%B1%BB%E6%A8%A1%E6%9D%BF%EF%BC%89/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
