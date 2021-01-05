@@ -44,11 +44,6 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>test.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>60</integer>
-		</dict>
 		<key>test1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -103,6 +98,11 @@
 			<key>orderHint</key>
 			<integer>63</integer>
 		</dict>
+		<key>会员积分（期末模拟）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
 		<key>倚天屠龙记（函数模板）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -138,6 +138,11 @@
 			<key>orderHint</key>
 			<integer>57</integer>
 		</dict>
+		<key>加湿风扇（期末模拟）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>77</integer>
+		</dict>
 		<key>动态矩阵（指针与堆内存分配）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -154,13 +159,17 @@
 		</dict>
 		<key>向量1（类和对象）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>69</integer>
 		</dict>
 		<key>向量5（友元类）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>73</integer>
+			<integer>71</integer>
 		</dict>
 		<key>向量的加减（运算符&lt;&lt;重载）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -381,8 +390,10 @@
 		</dict>
 		<key>有界数组模板类（类模板）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>69</integer>
+			<integer>73</integer>
 		</dict>
 		<key>机器人变身（类与对象）【期中模拟】.xcscheme_^#shared#^_</key>
 		<dict>
@@ -390,6 +401,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>56</integer>
+		</dict>
+		<key>机密模板（期末模拟）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
 		</dict>
 		<key>点和圆(类与对象).xcscheme_^#shared#^_</key>
 		<dict>
@@ -435,13 +451,17 @@
 		</dict>
 		<key>矩阵类模板（类模板）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>72</integer>
+			<integer>70</integer>
 		</dict>
 		<key>简单类模板(类模板).xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>72</integer>
 		</dict>
 		<key>虚拟电话（构造与析构）【期中模拟】.xcscheme_^#shared#^_</key>
 		<dict>
@@ -470,6 +490,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>45</integer>
+		</dict>
+		<key>计重转换（期末模拟）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>78</integer>
 		</dict>
 		<key>谁是老二（结构体）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -506,6 +531,11 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>金属加工（期末模拟）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
 		<key>银行账户（拷贝构造）【期中模拟】.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
@@ -519,6 +549,11 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>55</integer>
+		</dict>
+		<key>附加题、组链表与通讯录（期末模拟）.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -558,6 +593,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>85345B5E25A3606200CE32C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>853C8BCE255A948D00EC3D7E</key>
 		<dict>
 			<key>primary</key>
@@ -584,6 +624,31 @@
 			<true/>
 		</dict>
 		<key>853CA31D254874A0009FAC9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853F37E4259A0837006FA11C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853F3835259A0F20006FA11C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853F3887259A1630006FA11C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853F3977259A1A41006FA11C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>853F3A15259A1CBD006FA11C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

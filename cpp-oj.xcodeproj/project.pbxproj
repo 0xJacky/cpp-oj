@@ -14,6 +14,12 @@
 		8508E0882520528900AA560D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8508E0872520528900AA560D /* main.cpp */; };
 		8508E0A325207E5C00AA560D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8508E0A225207E5C00AA560D /* main.cpp */; };
 		8508E0BF2520801A00AA560D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8508E0BE2520801A00AA560D /* main.cpp */; };
+		85345B0C25A3557500CE32C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85345B0B25A3557500CE32C1 /* main.cpp */; };
+		85345B6225A3606200CE32C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85345B6125A3606200CE32C1 /* main.cpp */; };
+		85345BB925A364F400CE32C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85345BB825A364F400CE32C1 /* main.cpp */; };
+		85345CAB25A3678800CE32C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85345CAA25A3678800CE32C1 /* main.cpp */; };
+		85345D0425A4297100CE32C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85345D0325A4297100CE32C1 /* main.cpp */; };
+		85345D5E25A4329D00CE32C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85345D5D25A4329D00CE32C1 /* main.cpp */; };
 		853C8BD2255A948D00EC3D7E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853C8BD1255A948D00EC3D7E /* main.cpp */; };
 		853CA1E62548026B009FAC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853CA1E52548026B009FAC9C /* main.cpp */; };
 		853CA210254809E8009FAC9C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 853CA20F254809E8009FAC9C /* main.cpp */; };
@@ -139,6 +145,60 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		8508E0BA2520801A00AA560D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85345B0725A3557500CE32C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85345B5D25A3606200CE32C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85345BB425A364F400CE32C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85345CA625A3678800CE32C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85345CFF25A4297100CE32C1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		85345D5925A4329D00CE32C1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -767,6 +827,18 @@
 		8508E0A225207E5C00AA560D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8508E0BC2520801A00AA560D /* 矩阵左转（指针与数组） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "矩阵左转（指针与数组）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8508E0BE2520801A00AA560D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85345B0925A3557500CE32C1 /* 会员积分（期末模拟） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "会员积分（期末模拟）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85345B0B25A3557500CE32C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85345B5F25A3606200CE32C1 /* 金属加工（期末模拟） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "金属加工（期末模拟）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85345B6125A3606200CE32C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85345BB625A364F400CE32C1 /* 机密模板（期末模拟） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "机密模板（期末模拟）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85345BB825A364F400CE32C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85345CA825A3678800CE32C1 /* 加湿风扇（期末模拟） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "加湿风扇（期末模拟）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85345CAA25A3678800CE32C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85345D0125A4297100CE32C1 /* 计重转换（期末模拟） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "计重转换（期末模拟）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85345D0325A4297100CE32C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		85345D5B25A4329D00CE32C1 /* 附加题、组链表与通讯录（期末模拟） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "附加题、组链表与通讯录（期末模拟）"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85345D5D25A4329D00CE32C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		853C8BCF255A948D00EC3D7E /* 电视遥控（静态+友元） */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "电视遥控（静态+友元）"; sourceTree = BUILT_PRODUCTS_DIR; };
 		853C8BD1255A948D00EC3D7E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		853CA1E32548026B009FAC9C /* 电话号码升位(拷贝构造函数) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "电话号码升位(拷贝构造函数)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -948,6 +1020,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8508E0B92520801A00AA560D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345B0625A3557500CE32C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345B5C25A3606200CE32C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345BB325A364F400CE32C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345CA525A3678800CE32C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345CFE25A4297100CE32C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345D5825A4329D00CE32C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1482,6 +1596,54 @@
 			path = "矩阵左转（指针与数组）";
 			sourceTree = "<group>";
 		};
+		85345B0A25A3557500CE32C1 /* 会员积分（期末模拟） */ = {
+			isa = PBXGroup;
+			children = (
+				85345B0B25A3557500CE32C1 /* main.cpp */,
+			);
+			path = "会员积分（期末模拟）";
+			sourceTree = "<group>";
+		};
+		85345B6025A3606200CE32C1 /* 金属加工（期末模拟） */ = {
+			isa = PBXGroup;
+			children = (
+				85345B6125A3606200CE32C1 /* main.cpp */,
+			);
+			path = "金属加工（期末模拟）";
+			sourceTree = "<group>";
+		};
+		85345BB725A364F400CE32C1 /* 机密模板（期末模拟） */ = {
+			isa = PBXGroup;
+			children = (
+				85345BB825A364F400CE32C1 /* main.cpp */,
+			);
+			path = "机密模板（期末模拟）";
+			sourceTree = "<group>";
+		};
+		85345CA925A3678800CE32C1 /* 加湿风扇（期末模拟） */ = {
+			isa = PBXGroup;
+			children = (
+				85345CAA25A3678800CE32C1 /* main.cpp */,
+			);
+			path = "加湿风扇（期末模拟）";
+			sourceTree = "<group>";
+		};
+		85345D0225A4297100CE32C1 /* 计重转换（期末模拟） */ = {
+			isa = PBXGroup;
+			children = (
+				85345D0325A4297100CE32C1 /* main.cpp */,
+			);
+			path = "计重转换（期末模拟）";
+			sourceTree = "<group>";
+		};
+		85345D5C25A4329D00CE32C1 /* 附加题、组链表与通讯录（期末模拟） */ = {
+			isa = PBXGroup;
+			children = (
+				85345D5D25A4329D00CE32C1 /* main.cpp */,
+			);
+			path = "附加题、组链表与通讯录（期末模拟）";
+			sourceTree = "<group>";
+		};
 		853C8BD0255A948D00EC3D7E /* 电视遥控（静态+友元）【期中模拟】 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1680,6 +1842,12 @@
 				853F3889259A1630006FA11C /* 有界数组模板类（类模板） */,
 				853F3979259A1A41006FA11C /* 向量1（类和对象） */,
 				853F3A17259A1CBD006FA11C /* 向量5（友元类） */,
+				85345B0A25A3557500CE32C1 /* 会员积分（期末模拟） */,
+				85345B6025A3606200CE32C1 /* 金属加工（期末模拟） */,
+				85345BB725A364F400CE32C1 /* 机密模板（期末模拟） */,
+				85345CA925A3678800CE32C1 /* 加湿风扇（期末模拟） */,
+				85345D0225A4297100CE32C1 /* 计重转换（期末模拟） */,
+				85345D5C25A4329D00CE32C1 /* 附加题、组链表与通讯录（期末模拟） */,
 				85602D9F2509226800FBFE62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1761,6 +1929,12 @@
 				853F3888259A1630006FA11C /* 有界数组模板类（类模板） */,
 				853F3978259A1A41006FA11C /* 向量1（类和对象） */,
 				853F3A16259A1CBD006FA11C /* 向量5（友元类） */,
+				85345B0925A3557500CE32C1 /* 会员积分（期末模拟） */,
+				85345B5F25A3606200CE32C1 /* 金属加工（期末模拟） */,
+				85345BB625A364F400CE32C1 /* 机密模板（期末模拟） */,
+				85345CA825A3678800CE32C1 /* 加湿风扇（期末模拟） */,
+				85345D0125A4297100CE32C1 /* 计重转换（期末模拟） */,
+				85345D5B25A4329D00CE32C1 /* 附加题、组链表与通讯录（期末模拟） */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2301,6 +2475,108 @@
 			name = "矩阵左转（指针与数组）";
 			productName = "矩阵左转（指针与数组）";
 			productReference = 8508E0BC2520801A00AA560D /* 矩阵左转（指针与数组） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85345B0825A3557500CE32C1 /* 会员积分（期末模拟） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85345B0F25A3557600CE32C1 /* Build configuration list for PBXNativeTarget "会员积分（期末模拟）" */;
+			buildPhases = (
+				85345B0525A3557500CE32C1 /* Sources */,
+				85345B0625A3557500CE32C1 /* Frameworks */,
+				85345B0725A3557500CE32C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "会员积分（期末模拟）";
+			productName = "会员积分（期末模拟）";
+			productReference = 85345B0925A3557500CE32C1 /* 会员积分（期末模拟） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85345B5E25A3606200CE32C1 /* 金属加工（期末模拟） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85345B6325A3606200CE32C1 /* Build configuration list for PBXNativeTarget "金属加工（期末模拟）" */;
+			buildPhases = (
+				85345B5B25A3606200CE32C1 /* Sources */,
+				85345B5C25A3606200CE32C1 /* Frameworks */,
+				85345B5D25A3606200CE32C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "金属加工（期末模拟）";
+			productName = "金属加工";
+			productReference = 85345B5F25A3606200CE32C1 /* 金属加工（期末模拟） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85345BB525A364F400CE32C1 /* 机密模板（期末模拟） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85345BBA25A364F400CE32C1 /* Build configuration list for PBXNativeTarget "机密模板（期末模拟）" */;
+			buildPhases = (
+				85345BB225A364F400CE32C1 /* Sources */,
+				85345BB325A364F400CE32C1 /* Frameworks */,
+				85345BB425A364F400CE32C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "机密模板（期末模拟）";
+			productName = "机密模板（期末模拟）";
+			productReference = 85345BB625A364F400CE32C1 /* 机密模板（期末模拟） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85345CA725A3678800CE32C1 /* 加湿风扇（期末模拟） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85345CAC25A3678800CE32C1 /* Build configuration list for PBXNativeTarget "加湿风扇（期末模拟）" */;
+			buildPhases = (
+				85345CA425A3678800CE32C1 /* Sources */,
+				85345CA525A3678800CE32C1 /* Frameworks */,
+				85345CA625A3678800CE32C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加湿风扇（期末模拟）";
+			productName = "加湿风扇（期末模拟）";
+			productReference = 85345CA825A3678800CE32C1 /* 加湿风扇（期末模拟） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85345D0025A4297100CE32C1 /* 计重转换（期末模拟） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85345D0525A4297100CE32C1 /* Build configuration list for PBXNativeTarget "计重转换（期末模拟）" */;
+			buildPhases = (
+				85345CFD25A4297100CE32C1 /* Sources */,
+				85345CFE25A4297100CE32C1 /* Frameworks */,
+				85345CFF25A4297100CE32C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计重转换（期末模拟）";
+			productName = "计重转换（期末模拟）";
+			productReference = 85345D0125A4297100CE32C1 /* 计重转换（期末模拟） */;
+			productType = "com.apple.product-type.tool";
+		};
+		85345D5A25A4329D00CE32C1 /* 附加题、组链表与通讯录（期末模拟） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85345D5F25A4329D00CE32C1 /* Build configuration list for PBXNativeTarget "附加题、组链表与通讯录（期末模拟）" */;
+			buildPhases = (
+				85345D5725A4329D00CE32C1 /* Sources */,
+				85345D5825A4329D00CE32C1 /* Frameworks */,
+				85345D5925A4329D00CE32C1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "附加题、组链表与通讯录（期末模拟）";
+			productName = "附加题、组链表与通讯录（期末模拟）";
+			productReference = 85345D5B25A4329D00CE32C1 /* 附加题、组链表与通讯录（期末模拟） */;
 			productType = "com.apple.product-type.tool";
 		};
 		853C8BCE255A948D00EC3D7E /* 电视遥控（静态+友元） */ = {
@@ -3473,6 +3749,24 @@
 					8508E0BB2520801A00AA560D = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					85345B0825A3557500CE32C1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					85345B5E25A3606200CE32C1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					85345BB525A364F400CE32C1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					85345CA725A3678800CE32C1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					85345D0025A4297100CE32C1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					85345D5A25A4329D00CE32C1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
 					853C8BCE255A948D00EC3D7E = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -3763,6 +4057,12 @@
 				853F3887259A1630006FA11C /* 有界数组模板类（类模板） */,
 				853F3977259A1A41006FA11C /* 向量1（类和对象） */,
 				853F3A15259A1CBD006FA11C /* 向量5（友元类） */,
+				85345B0825A3557500CE32C1 /* 会员积分（期末模拟） */,
+				85345B5E25A3606200CE32C1 /* 金属加工（期末模拟） */,
+				85345BB525A364F400CE32C1 /* 机密模板（期末模拟） */,
+				85345CA725A3678800CE32C1 /* 加湿风扇（期末模拟） */,
+				85345D0025A4297100CE32C1 /* 计重转换（期末模拟） */,
+				85345D5A25A4329D00CE32C1 /* 附加题、组链表与通讯录（期末模拟） */,
 			);
 		};
 /* End PBXProject section */
@@ -3821,6 +4121,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				8508E0BF2520801A00AA560D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345B0525A3557500CE32C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85345B0C25A3557500CE32C1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345B5B25A3606200CE32C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85345B6225A3606200CE32C1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345BB225A364F400CE32C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85345BB925A364F400CE32C1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345CA425A3678800CE32C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85345CAB25A3678800CE32C1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345CFD25A4297100CE32C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85345D0425A4297100CE32C1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85345D5725A4329D00CE32C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85345D5E25A4329D00CE32C1 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4485,6 +4833,114 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85345B0D25A3557500CE32C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85345B0E25A3557500CE32C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85345B6425A3606200CE32C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85345B6525A3606200CE32C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85345BBB25A364F400CE32C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85345BBC25A364F400CE32C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85345CAD25A3678800CE32C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85345CAE25A3678800CE32C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85345D0625A4297100CE32C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85345D0725A4297100CE32C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		85345D6025A4329D00CE32C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		85345D6125A4329D00CE32C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -5930,6 +6386,60 @@
 			buildConfigurations = (
 				8508E0C12520801A00AA560D /* Debug */,
 				8508E0C22520801A00AA560D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85345B0F25A3557600CE32C1 /* Build configuration list for PBXNativeTarget "会员积分（期末模拟）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85345B0D25A3557500CE32C1 /* Debug */,
+				85345B0E25A3557500CE32C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85345B6325A3606200CE32C1 /* Build configuration list for PBXNativeTarget "金属加工（期末模拟）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85345B6425A3606200CE32C1 /* Debug */,
+				85345B6525A3606200CE32C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85345BBA25A364F400CE32C1 /* Build configuration list for PBXNativeTarget "机密模板（期末模拟）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85345BBB25A364F400CE32C1 /* Debug */,
+				85345BBC25A364F400CE32C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85345CAC25A3678800CE32C1 /* Build configuration list for PBXNativeTarget "加湿风扇（期末模拟）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85345CAD25A3678800CE32C1 /* Debug */,
+				85345CAE25A3678800CE32C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85345D0525A4297100CE32C1 /* Build configuration list for PBXNativeTarget "计重转换（期末模拟）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85345D0625A4297100CE32C1 /* Debug */,
+				85345D0725A4297100CE32C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85345D5F25A4329D00CE32C1 /* Build configuration list for PBXNativeTarget "附加题、组链表与通讯录（期末模拟）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85345D6025A4329D00CE32C1 /* Debug */,
+				85345D6125A4329D00CE32C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

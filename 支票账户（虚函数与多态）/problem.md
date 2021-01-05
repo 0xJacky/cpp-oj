@@ -1,4 +1,4 @@
- # 支票账户（虚函数与多态）  
+# 支票账户（虚函数与多态）  
   
 ## 题目描述  
 某银行的支票账户分为两类，一类为基本支票账户BaseAccount，另一类为具有透支保护特性的BasePlus支票账户。  
@@ -47,5 +47,4 @@ Bob BP009 Balance:1000 limit_sum:0
 May BA001 Balance:1000  
 Lily BP002 Balance:0 limit_sum:3000  
 ## 提示  
-  
   
