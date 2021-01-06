@@ -349,9 +349,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "main()"
-            landmarkType = "9">
+            endingLineNumber = "119">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -365,9 +363,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "62"
-            endingLineNumber = "62"
-            landmarkName = "operator +(obj)"
-            landmarkType = "7">
+            endingLineNumber = "62">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -396,8 +392,8 @@
             filePath = "&#x9644;&#x52a0;&#x9898;&#x3001;&#x7ec4;&#x94fe;&#x8868;&#x4e0e;&#x901a;&#x8baf;&#x5f55;&#xff08;&#x671f;&#x672b;&#x6a21;&#x62df;&#xff09;/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "284"
-            endingLineNumber = "284"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -412,8 +408,8 @@
             filePath = "&#x9644;&#x52a0;&#x9898;&#x3001;&#x7ec4;&#x94fe;&#x8868;&#x4e0e;&#x901a;&#x8baf;&#x5f55;&#xff08;&#x671f;&#x672b;&#x6a21;&#x62df;&#xff09;/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "283"
-            endingLineNumber = "283"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -428,8 +424,8 @@
             filePath = "&#x9644;&#x52a0;&#x9898;&#x3001;&#x7ec4;&#x94fe;&#x8868;&#x4e0e;&#x901a;&#x8baf;&#x5f55;&#xff08;&#x671f;&#x672b;&#x6a21;&#x62df;&#xff09;/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "282"
-            endingLineNumber = "282"
+            startingLineNumber = "275"
+            endingLineNumber = "275"
             landmarkName = "main()"
             landmarkType = "9">
          </BreakpointContent>
@@ -444,8 +440,8 @@
             filePath = "&#x9644;&#x52a0;&#x9898;&#x3001;&#x7ec4;&#x94fe;&#x8868;&#x4e0e;&#x901a;&#x8baf;&#x5f55;&#xff08;&#x671f;&#x672b;&#x6a21;&#x62df;&#xff09;/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
             landmarkName = "PhoneBook"
             landmarkType = "3">
          </BreakpointContent>
@@ -461,9 +457,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "operator +(obj)"
-            landmarkType = "7">
+            endingLineNumber = "66">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

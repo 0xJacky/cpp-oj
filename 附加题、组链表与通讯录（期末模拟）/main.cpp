@@ -200,16 +200,9 @@ private:
     
     void Merge(PhoneBook& pb) {
         for (int i = 0; i < hmax; i++) {
-            
             for (auto j = &pb.Table[i]; j->next != NULL; j = j->next) {
-                auto info = Find(j->getName());
-                if (info) {
-                    info->setPhoneNo(j->getPhoneNo());
-                } else {
-                    Add(j->getName(), j->getPhoneNo());
-                }
+                Add(j->getName(), j->getPhoneNo());
             }
-            
         }
     }
     
