@@ -39,13 +39,13 @@
  对于每个实例，调用打印操作输出加湿风扇的最终状态
 
  样例输入
- 3
- 1001 1000 1 2 3 4 0
- 1
- 2002 2000 0 1 1 12 0
- 3
- 3003 3000 0 3 2 10 0
- 0
+3
+1001 1000 1 2 3 4 0
+1
+2002 2000 0 1 1 12 0
+3
+3003 3000 0 3 2 10 0
+0
  样例输出
  加湿风扇--档位1
  编号1001--功率1000W
@@ -74,7 +74,7 @@ public:
     virtual void print() = 0;
 };
 
-class Fans : public Appliances {
+class Fans : virtual public Appliances {
 protected:
     int direction;
     int windPower;
@@ -91,7 +91,7 @@ public:
     }
 };
 
-class Humidifier : public Appliances {
+class Humidifier : virtual public Appliances {
 protected:
     double currentCapacity;
     double maxCapacity;
@@ -115,7 +115,7 @@ class HumidifyingFan : public Fans, public Humidifier {
 public:
     HumidifyingFan(int id, int power, int direction, int windPower,
                    double currentCapacity, double maxCapacity)
-        : Fans(id, power, direction, windPower),
+        : Appliances(id, power), Fans(id, power, direction, windPower),
           Humidifier(id, power, currentCapacity, maxCapacity) {}
 
     void setGear(int n) {
@@ -132,7 +132,7 @@ public:
         static const char* transDirection[] = {"定向吹风", "旋转吹风"};
         static const char* transWarning[] = {"正常", "偏低", "不足"};
         cout << "加湿风扇--档位" << gear << endl;
-        cout << "编号" << Fans::id << "--功率" << Fans::power << "W" << endl;
+        cout << "编号" << id << "--功率" << power << "W" << endl;
         cout << transDirection[direction] << "--风力" << windPower << "级"
              << endl;
         cout << "实际水容量" << currentCapacity << "升--水量"

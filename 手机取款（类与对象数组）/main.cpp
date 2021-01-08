@@ -110,6 +110,11 @@ int main() {
             database[i]->withdrawal(money);
         }
     }
+    
+    for (int i = 1; i <= t; i++) {
+        delete [] database[i];
+    }
+    
     delete[] database;
 
     return 0;

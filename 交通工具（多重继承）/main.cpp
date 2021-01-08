@@ -77,7 +77,7 @@ public:
     }
 };
 
-class CBicyle : public CVehicle {
+class CBicyle : virtual public CVehicle {
 public:
     int height;
     CBicyle(int ms, int s, int w, int h) : CVehicle(ms, s, w), height(h) {}
@@ -88,7 +88,7 @@ public:
     }
 };
 
-class CMotocar : public CVehicle {
+class CMotocar : virtual public CVehicle {
 public:
     int seat_num;
     CMotocar(int ms, int s, int w, int sn) : CVehicle(ms, s, w), seat_num(sn) {}
@@ -101,13 +101,12 @@ public:
 
 class CMotocycle : public CBicyle, public CMotocar {
 public:
-    CMotocycle();
     CMotocycle(int ms, int s, int w, int h, int sn)
-        : CBicyle(ms, s, w, h), CMotocar(ms, s, w, sn) {}
+        : CVehicle(ms, s, w), CBicyle(ms, s, w, h), CMotocar(ms, s, w, sn) {}
 
     void display() {
         cout << "Motocycle:" << endl;
-        CBicyle::public_display();
+        public_display();
         cout << "height:" << height << endl;
         cout << "seat_num:" << seat_num << endl;
     }

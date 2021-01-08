@@ -87,7 +87,7 @@
 		<key>交通工具（多重继承）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
 			<key>orderHint</key>
 			<integer>37</integer>
 		</dict>
@@ -100,6 +100,8 @@
 		</dict>
 		<key>会员积分（期末模拟）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>77</integer>
 		</dict>
@@ -140,8 +142,10 @@
 		</dict>
 		<key>加湿风扇（期末模拟）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>79</integer>
+			<integer>78</integer>
 		</dict>
 		<key>动态矩阵（指针与堆内存分配）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -404,6 +408,8 @@
 		</dict>
 		<key>机密模板（期末模拟）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>76</integer>
 		</dict>
@@ -493,8 +499,10 @@
 		</dict>
 		<key>计重转换（期末模拟）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>78</integer>
+			<integer>79</integer>
 		</dict>
 		<key>谁是老二（结构体）.xcscheme_^#shared#^_</key>
 		<dict>
@@ -533,6 +541,8 @@
 		</dict>
 		<key>金属加工（期末模拟）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>74</integer>
 		</dict>
@@ -552,8 +562,10 @@
 		</dict>
 		<key>附加题、组链表与通讯录（期末模拟）.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>75</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -593,7 +605,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>85345B0825A3557500CE32C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>85345B5E25A3606200CE32C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85345BB525A364F400CE32C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85345CA725A3678800CE32C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85345D0025A4297100CE32C1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85345D5A25A4329D00CE32C1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
